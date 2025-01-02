@@ -55,7 +55,7 @@ function initCircle(i) {
   life = 0;
   ttl = baseTTL + rand(rangeTTL);
   radius = baseRadius + rand(rangeRadius);
-  hue = Math.abs((baseHue * n * rangeHue) % 50) + 150;
+  hue = Math.abs((baseHue * n * rangeHue) % 50) + 250;
   // console.log(hue);
 
   circleProps.set([x, y, vx, vy, life, ttl, radius, hue], i);

@@ -108,16 +108,16 @@
   padding: 0 2rem;
   display: flex;
   align-items: center;
-  border: 2px solid rgb(15, 184, 156);
+  border: 2px solid var(--primary-color);
   border-radius: 5px;
 }
 #events-desktop > a {
-  color: rgb(18, 196, 166);
+  color: var(--primary-color);
   z-index: 1;
   transition: 250ms;
 }
 .open-x {
-  background: rgb(15, 184, 156);
+  background: var(--primary-color);
   width: 100%;
   height: 0%;
   position: absolute;

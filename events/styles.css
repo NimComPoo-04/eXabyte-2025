@@ -445,3 +445,35 @@ button:disabled {
 .desktop video {
   transform: rotate(-90deg);
 }
+
+.download-btn-desktop {
+  margin: auto;
+  padding: 1rem 3.4rem;
+  z-index: 99;
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: large;
+  border-radius: 10px;
+  background-color: rgb(240,230,140);
+  transition: background-color 0.5s;
+}
+
+.download-btn-mobile {
+  margin: auto;
+  padding: 1rem 3.4rem;
+  z-index: 9;
+  display: block;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font-size: large;
+  border-radius: 10px;
+  background-color: rgb(242, 226, 106);
+  transition: background-color 0.5s;
+}
+
+.download-btn-desktop:hover{
+  background-color: rgb(242, 226, 106);
+}

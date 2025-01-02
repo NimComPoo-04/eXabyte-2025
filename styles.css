@@ -9,9 +9,9 @@ body::before {
   width: 100vw;
   position: fixed;
   top: 0;
-  background:
+  /* background:
     linear-gradient(90deg, var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 8vmin 8vmin,
-    linear-gradient(var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 8vmin 8vmin;
+    linear-gradient(var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 8vmin 8vmin; */
   mask: radial-gradient(white, transparent);
   /* background-image: radial-gradient(rgba(0,0,0,0) 1.5px,rgba(0, 0, 0, 0.3) 1px);
     background-size: 14px 14px; */
@@ -224,13 +224,14 @@ button {
 
 .intro, .info-section {
   height: 100vh;
-  padding: 0 5rem;
-  /* display: flex; */
-  /* align-items: center; */
+  padding: 0 0rem;
+  display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   position: relative;
   z-index: 11;
+  text-align: center;
   /* background: rgba(0, 0, 0, 0.5); */
   /* background: linear-gradient(black, transparent); */
   background: radial-gradient(transparent, rgba(0, 0, 0, 0.8) 70%);
@@ -242,7 +243,7 @@ button {
 }
 
 .intro header {
-  margin-top: 16%;
+  margin-top: 0%;
   color: rgba(240, 248, 255, 0.9);
   font-size: 4.5rem;
   font-weight: bold;
@@ -250,7 +251,8 @@ button {
   line-height: 1.15;
 }
 .tech-fest-name {
-  color: rgb(18, 214, 155);
+  color: var(--primary-color);
+  /* color: rgb(18, 214, 155); */
   font-size: 5rem;
   font-weight: bold;
 }

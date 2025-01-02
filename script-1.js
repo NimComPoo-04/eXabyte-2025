@@ -23,7 +23,7 @@
 //     if(!event.target.className.includes('info-button') && !event.target.className.includes('about-pop-up') && !event.target.className.includes('about-details-wrapper') && !event.target.className.includes('close-pop-up') )
 //     closePopUp();
 // });
-const futureDate = new Date("2024-02-12 10:00").getTime();
+const futureDate = new Date("2025-02-12 10:00").getTime();
 
 // Update the countdown every second
 const interval = setInterval(function () {
@@ -52,14 +52,14 @@ const interval = setInterval(function () {
     }
 }, 1000);
 
-openModal("IMPORTANT", `
-Hello everyone, hope you are ready for the Annual Departmental Tech Fest, eXabyte'24 - Beyond Binary.
-<br>
-<br>
-Due to the unfortunate demise of Rev. Fr. P.C. Mathew SJ, the former principal of St. Xavier's College (Autonomous), Kolkata, we have to postpone the second day of eXabyte'24 to 15th February, 2024.
-<br>
-Thank you for your participation and support. 
-<br>
-<br>
-<b>See you at runtime!</b>
-`)
+// openModal("IMPORTANT", `
+// Hello everyone, hope you are ready for the Annual Departmental Tech Fest, eXabyte'24 - Beyond Binary.
+// <br>
+// <br>
+// Due to the unfortunate demise of Rev. Fr. P.C. Mathew SJ, the former principal of St. Xavier's College (Autonomous), Kolkata, we have to postpone the second day of eXabyte'24 to 15th February, 2024.
+// <br>
+// Thank you for your participation and support. 
+// <br>
+// <br>
+// <b>See you at runtime!</b>
+// `)

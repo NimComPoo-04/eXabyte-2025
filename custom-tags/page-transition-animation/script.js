@@ -2,12 +2,7 @@ const transitionWrapper =
   document.getElementsByClassName("transition-wrapper")[0];
 var routesLinks =
   document.getElementsByClassName("routes-mobile")[0].childNodes;
-var routesLinksDesktopGroup1 = document.querySelector(
-  ".desktop .nav-group-1"
-).childNodes;
-var routesLinksDesktopGroup2 = document.querySelector(
-  ".desktop .nav-group-2"
-).childNodes;
+var routesLinksDesktop = document.getElementsByClassName("routes-desktop")[0].childNodes;
 
 var homeIconDesktop = document.querySelector(".desktop .logo-holder")
 var homeIconMobile = document.querySelector(".mobile .logo-holder")
@@ -62,34 +57,13 @@ routesLinks.forEach((node) => {
   });
 });
 
-routesLinksDesktopGroup1.forEach((node) => {
+routesLinksDesktop.forEach((node) => {
   node.addEventListener("click", (e) => {
     e.stopPropagation();
     e.preventDefault();
     let nodePath = node.id.split("-")[0];
     console.log(nodePath);
     // return
-    if (`/${nodePath}/` == path) {
-      closeMenu();
-      return;
-    } else if (nodePath == "home" && path == "/") {
-      closeMenu();
-      return;
-    }
-    localStorage.setItem("playTransitionAnimation", true);
-    transitionWrapper.classList.remove("transition-invisible");
-    transitionWrapper.classList.add("transition-visible");
-    setTimeout(() => {
-      window.location.href = (`/${nodePath == "home" ? "" : nodePath}`);
-    }, 250);
-  });
-});
-
-routesLinksDesktopGroup2.forEach((node) => {
-  node.addEventListener("click", (e) => {
-    e.stopPropagation();
-    e.preventDefault();
-    let nodePath = node.id.split("-")[0];
     if (`/${nodePath}/` == path) {
       closeMenu();
       return;

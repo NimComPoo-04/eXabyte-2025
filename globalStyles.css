@@ -13,9 +13,9 @@ body {
   background-color: black;
   color: whitesmoke;
   font-family: "product_sans", monospace;
-  --primary-color: #56c5a2;
-  --primary-color-text: #265452;
-  --primary-color-text-darker: #06264b;
+  --primary-color: #a58be6;
+  --primary-color-text: #523f99;
+  --primary-color-text-darker: #1a041a;
   --accent-color: #cff5e7;
 }
 

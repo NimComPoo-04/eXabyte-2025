@@ -5,42 +5,6 @@ const magazinesDesktop = document.getElementById("magazines-desktop");
 const contactDesktop = document.getElementById("contact-desktop");
 const aboutDesktop = document.getElementById("about-desktop");
 
-const navGroup1 = document.getElementsByClassName("nav-group-1")[0]
-const navGroup2 = document.getElementsByClassName("nav-group-2")[0]
-const navGroupToggleButton = document.getElementsByClassName("nav-group-toggle")[0]
-
-var navGroup1Visible = true;
-var navGroupToggled = false;
-
-function makeNavGroup1Visible() {
-    navGroup1.classList.add("nav-group-visible");
-    navGroup1.classList.remove("nav-group-invisible");
-    navGroup2.classList.add("nav-group-invisible");
-    navGroup2.classList.remove("nav-group-visible");
-}
-
-function makeNavGroup2Visible() {
-    navGroup1.classList.remove("nav-group-visible");
-    navGroup1.classList.add("nav-group-invisible");
-    navGroup2.classList.remove("nav-group-invisible");
-    navGroup2.classList.add("nav-group-visible");
-}
-
-navGroupToggleButton.addEventListener("click", () => {
-    if (navGroup1Visible) {
-        makeNavGroup2Visible()
-    } else {
-        makeNavGroup1Visible()
-    }
-    if (navGroupToggled) {
-        navGroupToggleButton.innerHTML = "more";
-    } else {
-        navGroupToggleButton.innerHTML = "less";
-    }
-    navGroup1Visible = !navGroup1Visible;
-    navGroupToggled = !navGroupToggled;
-})
-
 switch (path) {
     case "/":
     case "/index.html":
@@ -75,17 +39,12 @@ switch (path) {
     case "/events/index.html":
     case "/magazines/":
     case "/magazines/index.html":
-        navGroup1Visible = true;
-        makeNavGroup1Visible()
-        break;
     case "/sponsors/":
     case "/sponsors/index.html":
     case "/contact/":
     case "/contact/index.html":
     case "/about/":
     case "/about/index.html":
-        navGroup1Visible = false;
-        makeNavGroup2Visible()
         break;
 }
 
