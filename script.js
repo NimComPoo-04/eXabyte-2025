@@ -52,6 +52,7 @@ const interval = setInterval(function () {
     }
 }, 1000);
 
+/*
 openModal("IMPORTANT", `
 Hello everyone, hope you are ready for the Annual Departmental Tech Fest, eXabyte'24 - Beyond Binary.
 <br>
@@ -68,3 +69,4 @@ Everyone is welcome to attend the Opening ceremony of eXabyte'24 on 12th Feb and
 <br>
 <b>See you at runtime!</b>
 `)
+*/

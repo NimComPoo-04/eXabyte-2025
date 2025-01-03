@@ -6,9 +6,7 @@
   z-index: 100;
   width: 800px;
   height: 500px;
-  background-color: rgba(37, 37, 37, 0.85);
-  background-color: rgba(37, 3, 44, 0.85);
-  background: #262c33;
+  background-color: #1D0D3D;/* rgba(37, 37, 37, 0.85); */
   border: 1px solid #171924;
   border-radius: 10px;
   box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.2);
@@ -18,6 +16,9 @@
   -webkit-backdrop-filter: blur(5px);
   transform: scale(1);
   box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.7);
+
+  /* background-color: rgba(37, 3, 44, 0.85); */
+  /* background: #262c33; */
 }
 .window--maximized {
   width: 98vw;
@@ -263,6 +264,7 @@
     box-sizing: border-box;
     padding: 0.5rem 1.5rem;
     overflow-x: hidden;
+    text-align: left;
     /* overflow-y: scroll; */
 }
 

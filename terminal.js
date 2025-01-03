@@ -21,7 +21,7 @@ var commandOutputs = {
   info: `
   The Post Graduate and Research Dept. of St. Xavier's College (Autonomous), Kolkata 
   organizes the eight edition of the Annual Technological Festival,
-  eXabyte 2024' with the theme "Beyond Binary" on 12th and 13th February, 2024. 
+  eXabyte 2025' with the theme "Beyond Binary" on 12th and 13th February, 2025. 
   As an exemplar to showcase our eminence in the world of the technology, 
   the students at the Department of Computer Science strive to bring together future 
   legionaries of the technological arena and kindle in them a thirst for answers, quest for horizons.
@@ -182,14 +182,14 @@ function setInputWidth(inputElement) {
     window.getComputedStyle(inputElement).font
   );
 
-  console.log(contentWidth);
+  //console.log(contentWidth);
   // Set the input field width with some padding
   inputElement.style.width = contentWidth + 5 + "px";
 }
 
 // Function to get the width of a text string in pixels
 function getTextWidth(text, font) {
-  console.log(100);
+  //console.log(100);
   const canvas = document.createElement("canvas");
   const context = canvas.getContext("2d");
   context.font = font;

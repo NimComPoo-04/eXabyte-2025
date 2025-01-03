@@ -220,16 +220,16 @@ img {
 
 .LHS {
   /* background: var(--primary-color); */
-  background: rgba(31, 153, 214, 0.25);
+  background: rgb(105, 63, 219, 0.25);
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
 }
 .desktop .current-route {
-  color: rgb(125, 175, 255) !important;
+  color: rgb(175, 125, 255) !important;
 }
 
 .desktop .current-route::after {
-  background-color: rgb(125, 175, 255) !important;
+  background-color: rgb(175, 125, 255) !important;
 }
 
 .LHS header,
@@ -347,7 +347,7 @@ img {
 
 .sponsor-card:hover > .brand-logo-desktop {
   transform: scale(1.15);
-  filter: drop-shadow(0 0 30px rgb(63, 105, 219));
+  filter: drop-shadow(0 0 30px rgb(105, 63, 219));
 }
 
 .transparent-glass-bg {

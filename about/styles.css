@@ -336,7 +336,7 @@ body, html {
 
 .LHS {
   /* background: var(--primary-color); */
-  background: rgba(31, 202, 214, 0.15);
+  background: #8b77b74e;
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
 }

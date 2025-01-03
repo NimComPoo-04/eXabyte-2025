@@ -231,7 +231,7 @@ body {
 /* Body elements styling */
 
 .LHS {
-  background: rgba(31, 180, 214, 0.25);
+  background: #7c50a34e;
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);
 }

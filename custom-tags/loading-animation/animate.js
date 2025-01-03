@@ -6,14 +6,14 @@ var metaTag = document.querySelector('meta[name="theme-color"]');
 let finishedLoading = false;
 
 const reset = () => {
-    el.scrollTop = 0;
+    if (el) el.scrollTop = 0;
     metaTag.setAttribute('content', '#000000');
     setTimeout(scrollToNextByte, 750)
 }
 const scrollToNextByte = () => {
-    el.scrollTop = el.scrollTop + 35;
-    console.log(el.scrollTop, el.scrollHeight);
-    if (el.scrollTop > 170) {
+    if (el) el.scrollTop = el.scrollTop + 35;
+    // console.log(el.scrollTop, el.scrollHeight); // (NimComPoo): remove the console.log to speed things up
+    if (el?.scrollTop > 170) {
         if (!finishedLoading) {
             setTimeout(reset, 1250)
         } else {
@@ -28,8 +28,8 @@ const scrollToNextByte = () => {
 }
 
 if (localStorage.getItem("fontsCached")) {
-    el.classList.remove("hidden-no-anim")
-    st.classList.remove("hidden-no-anim")
+    el?.classList.remove("hidden-no-anim")
+    st?.classList.remove("hidden-no-anim")
     if (window.location.pathname == "/" && !localStorage.getItem("playTransitionAnimation")) {
         reset();
     } else {

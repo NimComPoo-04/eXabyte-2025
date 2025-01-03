@@ -333,7 +333,7 @@ html {
 
 .LHS {
   /* background: var(--primary-color); */
-  background: rgba(31, 180, 214, 0.25);
+  background: #a58be64e;
   /* background: rgba(31, 64, 214, 0.15); */
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(7px);

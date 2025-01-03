@@ -46,7 +46,7 @@ document.querySelector(".mobile").addEventListener("scroll", function () {
   }
   setTimeout(() => {
     let msgPositionFromTop = msg.getBoundingClientRect().top;
-    console.log(msgPositionFromTop);
+    //console.log(msgPositionFromTop);
     if (msgPositionFromTop > 110) {
       resetPositions();
     }

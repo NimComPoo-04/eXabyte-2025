@@ -162,7 +162,7 @@ function draw() {
   ctx.b.fillRect(0, 0, canvas.b.width, canvas.b.height);
   updateCircles();
   render();
-	window.requestAnimationFrame(draw);
+  window.requestAnimationFrame(draw);
 }
 
 window.addEventListener('load', setup);
