@@ -55,66 +55,39 @@ document.querySelector(".mobile").addEventListener("scroll", function () {
 
 const eventDetails = [
   {
-    name: "Codeplay",
+    name: "CodePlay",
     description:
-      "Where tech enthusiasts unite, showcasing innovation through coding, workshops, and networking.",
+	  "Where tech enthusiasts unite, showcasing innovation through coding, workshops, and networking.",
     modalDescription:
-      "Welcome to CODEPLAY, where the world of coding transforms into an exhilarating game! Dive into the challenge, whether you`re a seasoned coder or a beginner. Solve puzzles, crack codes, and unravel the magic of programming in this thrilling event!<br><br>Rules:<ul><li>Team Size: Two</li><li>Programming Languages: C, C++, Java.</li><li><strong>Round-1: Coding</strong><ul><li>A set of 4 questions will be given.</li><li>Participants need to analyze and write code for the questions.</li><li>Difficulty level ranges from easy to hard.</li><li>The event is held on Coding Ninjas platform.</li><li>Qualification to the next round is based on ranks in the Coding Ninjas Leaderboard.</li></ul></li><li><strong>Round-2: Blind Coding</strong><ul><li>Qualified participants are given one question in their chosen language, containing errors.</li><li>Errors are to be corrected, and the corrected program is typed into a notepad file.</li><li>Participants type the correct program with the monitor powered off.</li></ul></li></ul>",
-    formLink: "https://docs.google.com/forms/d/18bX62qOe1OpDTEplEzRxS8f_sWUMYRPGxbcLbKGvL84",
-    icon: "data_object",
+          "Welcome to CODEPLAY, where the world of coding transforms into an exhilarating game! Dive into the challenge, whether you`re a seasoned coder or a beginner. Solve puzzles, crack codes, and unravel the magic of programming in this thrilling event!<br><br> <b>Participation Type:</b> Team Event (2 members)<br><br> <b>Event Details:</b> <ul> <li>A competitive coding event focusing on common topics from Data Structures and Algorithms (DSA).</li> <li><b>Question Difficulty:</b> Easy to Hard.</li> <li><b>Allowed Programming Languages:</b> C,C++ & Java.</li> </ul>",
+    fromLink: "#",
+    icon: "data_object"
   },
   {
     name: "Webbed",
     description:
       "Unleash creativity & elevate your coding skills at this immersive web development event.",
     modalDescription:
-      "Get ready to weave the digital canvas with WEBBED! This solo event challenges participants to craft a stunning stand-alone webpage using HTML, CSS, and vanilla JavaScript. Unleash your creativity with the same set of images provided to all, bringing your design to life!<br><br>Rules:<ul><li>Team Size: One</li><li>Create a stand-alone webpage (front end only) using HTML, CSS, and vanilla JavaScript, incorporating the same set of provided images.</li></ul>",
-    formLink: "https://docs.google.com/forms/d/1gG-xqEQK8w772wBRsXaZOk_N0Uu1NNtlB1TfS1jvG14",
+      "Get ready to weave the digital canvas with WEBBED! This solo event challenges participants to craft a stunning stand-alone webpage using HTML, CSS, and vanilla JavaScript. Unleash your creativity with the same set of images provided to all, bringing your design to life!<br><br> <b>Participation Type:</b> Individual Event<br><br> <b>Event Details:</b> <ul> <li>A web designing competition focusing on frontend design.</li> <li>Adding dynamic features is encouraged but not mandatory.</li> <li>All required resources (images, audio files) will be provided on the event day.</li> </ul>",
+    formLink: "#",
     icon: "language",
   },
   {
-    name: "Crypt-X",
+    name: "Exathon",
     description:
-      "Dive into the cryptic challenge, solve puzzles & crack encrypted messages.",
+      "Code, collaborate, and innovate in a dynamic hybrid hackathon experience",
     modalDescription:
-      "Unlock the secrets of encryption in CRYPT-X! Dive into the world of cipher codes, where participants embark on a quest to break through cryptographic puzzles. Whether you`re a novice or an encryption expert, CRYPT-X promises an exciting challenge for all!<br><br>Rules:<ul><li>Team Size: One to Two</li><li>A set of n questions provided in password-protected .txt files.<li>The first question will be accessible to every participant.</li><li>The answer to the ith question serves as the password for the (i+1)th question file, 1<=i<=n-1.</li></ul>",
-    formLink: "https://docs.google.com/forms/d/1W-8ZSPe9P-41sEbhktWaGnMTZZ-UF0SIYg1HCHwhFSk",
-    icon: "key",
-  },
-  {
-    name: "Excelerate",
-    description:
-      "Dive into the adrenaline-fueled world of esports, where skills clash and champions emerge.",
-    modalDescription:
-      "Dive into the competitive world of EXCELERATE! In this solo efootball mobile tournament, players face off in 1v1 matches, showcasing their skills and strategy. With standard match settings and intense gameplay, only the best will emerge victorious!<br><br>Rules:<ul><li><strong>Team Size:</strong> One</li><li><strong>Game:</strong> efootball mobile (Konami)</li><li><strong>Prelims:</strong> <ul><li>Solo registrations for 1v1 matches with Dream team</li><li>Standard match type with 6-minute time limit</li><li>Injuries off, extra time off, penalties on</li><li>Excellent condition for home and away</li><li>6 substitutions, 8 sub-intervals, no extra sub for extra time</li></ul></li><li><strong>Other rules:</strong> <ul><li>Players must carry their own devices with proper network connection and earphones</li><li>Use of hacks, network tampering, misconduct, and external devices leads to disqualification</li><li>Celebrations are skipped on all occasions</li><li>If a player has no opponent, the moderator or a volunteer will pose as one</li><li>Match results must be recorded as screenshots</li><li>Matches are recommended to be recorded for evidence</li><li>Inform administrators about network lag for possible rematch consideration</li><li>Moderators may livestream Semi Finals and Finals; participants are not allowed to livestream</li></ul></li><li><strong>Rules for Semi Finals and Finals:</strong> <ul><li>Team type: Dream team</li><li>Standard match type with 10-minute time limit</li><li>Injuries off, extra time on, penalties on</li><li>Excellent condition for home and away</li><li>6 substitutions, 6 sub-intervals, one extra sub for extra time</li></ul></li></ul>",
-    formLink: "https://docs.google.com/forms/d/1kAByQaNwUF0ntO4Zm1CbEConD_hXX_X0Xh2busJHByY",
-    icon: "sports_esports",
-  },
-  {
-    name: "Digitbit",
-    description:
-      "Unleash creativity in hardware design challenges, where circuits come to life with innovation.",
-    modalDescription:
-      "Embark on the journey of DIGIBIT, where hardware circuit designing meets innovation! Teams of two dive into the realms of circuitry, solving challenges from multiple-choice prelims to hands-on finals. Efficiency and speed are the key as you bring circuit diagrams to life with provided materials.<br><br>Rules:<ul><li>Team Size: Two</li><li><strong>Prelims:</strong><ul><li>Multiple choice questions on the topic.</li><li>Qualification depends on total participants.</li></ul></li><li><strong>Finals:</strong><ul><li>Design a given circuit diagram.</li><li>Provided materials for implementation.</li><li>Teams scored on circuit efficiency and completion time.</li></ul></li></ul>",
-    formLink: "https://docs.google.com/forms/d/1mv-dDZpfvCCoTqktlPDJfWKUOEALApegBQy6b2n1jLo",
-    icon: "electrical_services",
-  },
-  {
-    name: "Em-Bleed",
-    description:
-      "Transform imagination into pixels at this digital art and design event, sparking creative brilliance.",
-    modalDescription:
-      "Unleash your creativity in EM-BLEED, where design meets expression! This solo event invites participants to craft captivating posters, digital artworks, or GIFs on a given topic. Let your imagination flow freely, adhering to guidelines that foster creativity and respect.<ul><li>Team Size: One</li><li>Design a poster, digital artwork, or GIF on the given topic using only PS or Adobe Illustrator, in .jpeg format, avoiding representation of individuals, organizations, brands, and religious sentiments, and ensuring originality.</li><li>Platform: macOS.</li></ul>",
-    formLink: "https://docs.google.com/forms/d/1x7pGjlQ5K4sC2HG-iqDi5GQXgrgY_bV1ew3_01EwrKg",
-    icon: "palette",
+      "Immerse yourself in a world of innovation and collaboration, where you can tackle real-world challenges, showcase your skills, and transform groundbreaking ideas into reality. This is your chance to push boundaries and make an impact!<br><br> <b>Participation Type:</b> Team Event (3 members)<br><br> <b>Event Details:</b><br><br> <b>Phase 1 (On-line):</b> <ul> <li>Teams submit an idea based on provided topics.</li> <li>Develop the core model and upload it to a specified GitHub link.</li> <li>Create a 5-slide PowerPoint presentation to describe the idea and present it in a Google Meet session.</li> <li>Plagiarism is strictly prohibited.</li> <li>Time allocation details for model development will be shared before the event.</li> <li>Winners from the Phase 1 will qualify for Phase 2.</li> </ul> <b>Phase 2 (On-Campus):</b> <ul> <li>Qualifying teams will visit the college.</li> <li>Additional requirements will be shared and must be incorporated into the model.</li> <li>Teams will receive expert feedback after Round 1 to improve their models.</li> <li>Final presentations will be made before a panel of judges.</li> <li>The judging panel’s decision will determine the winners.</li> </ul>",
+    formLink: "#",
+    icon: "monitor",
   },
   {
     name: "Brainstorm",
     description:
       "Ignite your intellect in a thrilling quiz challenge, testing knowledge and quick thinking.",
     modalDescription:
-      "Ignite your intellect in a thrilling quiz challenge, testing knowledge and quick thinking.<br><br>Rules:<ul><li>Team Size: Two</li><li>A generalized quiz event.</li><li>Format and rules of the quiz will be disclosed by the Quiz Master during the event.",
-    formLink: "https://docs.google.com/forms/d/1BecIXU-9Nqsbp7FtoKatSZJ0VCciQNhwBPCME0mLPTE",
+      "Ignite your intellect in a thrilling quiz challenge, testing knowledge and quick thinking.<br><br> <b>Participation Type:</b> Team Event (2 members)<br><br> <b>Event Details:</b> <ul> <li>A generalized quiz covering technical topics.</li> <li>The format and rules will be announced by the Quiz Master during the event.</li> </ul>",
+    formLink: "#",
     icon: "psychology_alt",
   },
   {
@@ -122,44 +95,80 @@ const eventDetails = [
     description:
       "Engage in thought-provoking debates, where ideas clash and minds spark intellectual fireworks.",
     modalDescription:
-      "Step into the arena of ideas with VERB-O-WAR! In this dynamic debate, teams of two engage in thought-provoking battles, with one participant advocating and the other opposing. From challenging prelims to the intense finals, it`s a clash of intellects in the Oxford style!<br><br>Rules:<ul><li>Team Size: Two (one participant for the motion, one against).</li><li><strong>Prelims:</strong><ul><li>One member of each team participates.</li><li>Topics revealed a day prior; each participant speaks for 2 minutes.</li></ul></li><li><strong>Finals:</strong><ul><li>Final topics disclosed a day prior for qualifying teams.</li><li>Debate conducted in Oxford style with 2+1 minutes per speaker and 1-minute rebuttal time.</li></ul></li></ul>",
-    formLink: "https://docs.google.com/forms/d/1CDvmP21Ksr52-PnjvD_X0Jz4kuQC4m6vpaRg_MxPzUE",
+      "Step into the arena of ideas with VERB-O-WAR! In this dynamic debate, teams of two engage in thought-provoking battles, with one participant advocating and the other opposing. From challenging prelims to the intense finals, it`s a clash of intellects in the Oxford style!<br><br> <b>Participation Type:</b> Team Event (2 members)<br><br> <b>Event Details:</b> <ul> <li><b>Format:</b> Oxford-style debate.</li> <li><b>Roles:</b> One member will speak for the motion, and the other against it.</li> <li><b>Topic Announcement:</b> Provided one day prior to the event.</li> <li><b>Time Limit:</b> Each speaker gets 2+1 minutes, followed by a 1-minute rebuttal.</li> </ul>",
+    formLink: "#",
     icon: "campaign",
-  },
-  {
-    name: "Byte Tales",
-    description:
-      "Sculpt powerful narratives in tiny spaces, where words spark worlds in microfiction mastery",
-    modalDescription:
-      "Dive into the world of micro storytelling with BYTE TALES! Unleash your creativity in bite-sized paragraphs, each a narrative gem. Explore diverse themes and craft compelling tales within the tight embrace of a 50-word limit.<br><br>Rules: <ul><li>Team Size: One</li><li>A theme will be given.</li><li>Participants need to write a short paragraph (word limit: 50 words) on the given theme.</li></ul><b>NOTE: Event is to be held online</b>",
-    formLink: "https://docs.google.com/forms/d/1pEvf_D8FXO0dPKpTN7wjhxAPWiEUKBWyCh_6Ab9MgLw",
-    icon: "auto_stories",
   },
   {
     name: "X-Hunt",
     description:
       "Embark on a thrilling clue hunt, decode mysteries, and unravel the enigma.",
     modalDescription:
-      "Embark on an adventurous journey with X-HUNT! In this clue hunting extravaganza, participants decode mysteries and solve puzzles. The treasure hunt unfolds, promoting teamwork and quick thinking, leading to exciting group-fies at every clue location.<br><br>Rules:<ul><li>Team Size: Four</li><li><strong>Prelims:</strong> Participants answer a set of questions within the given time.</li><li><strong>Finals:</strong><ul><li>Teams of 4, with at least one member from St. Xavier’s College, Kolkata.</li><li>Active internet connection and WhatsApp required for teamwork.</li><li>Teams decipher clues, take group-fies at clue locations, and are scored based on completion and time.</li><li>Event Head explains detailed rules post-registration.</li></ul></li></ul>",
-    formLink: "https://docs.google.com/forms/d/1a1raYVU8gFHJXrJCXoNAguG1HljW7TPcmttH2twmarE",
+      "Embark on an adventurous journey with X-HUNT! In this clue hunting extravaganza, participants decode mysteries and solve puzzles. The treasure hunt unfolds, promoting teamwork and quick thinking, leading to exciting group-fies at every clue location.<br><br> <b>Participation Type:</b> Team Event (4 members)<br><br> <b>Event Details:</b> <ul> <li>A treasure hunt requiring teamwork to solve clues.</li> <li>Each team must have 4 members with at least one member being from St. Xavier’s College (Autonomous), Kolkata.</li> <li>Teams must stay together and use smartphones with active internet and WhatsApp.</li> <li>Each team will be given a clue at the beginning of the treasure hunt from the registration desk. It will be up to the teams to decipher the said clue.</li> <li>Solve each clue to reach a location, take a group-fie with the clue, and proceed.</li> <li>Scoring is based on task completion and time taken.</li> <li>Teams must return to the starting point to be complete their participation.</li> </ul>",
+    formLink: "#",
     icon: "map",
+  },
+  {
+    name: "eXcelerate",
+    description:
+      "Dive into the adrenaline-fueled world of esports, where skills clash and champions emerge.",
+    modalDescription:
+      "Dive into the competitive world of EXCELERATE! In this solo efootball mobile tournament, players face off in 1v1 matches, showcasing their skills and strategy. With standard match settings and intense gameplay, only the best will emerge victorious!<br><br> <b>Participation Type: </b> Team Event (4 members)<br><br><b>Event Details:</b> <ul> <li><b>The Game allowed: </b> Call of Duty mobile.</li> <li><b>Prelims:</b> Conducted on Day 1.</li> <li><b>Finals:</b> Teams that qualify will compete on the final day.</li> <li>Teams must have a reliable internet connection for mobile gaming.</li> <li>Verbal abuse will result in disqualification.</li> </ul>",
+    formLink: "#",
+    icon: "sports_esports",
+  },
+  {
+    name: "Digitbit",
+    description:
+      "Unleash creativity in hardware design challenges, where circuits come to life with innovation.",
+    modalDescription:
+      "Embark on the journey of DIGIBIT, where hardware circuit designing meets innovation! Teams of two dive into the realms of circuitry, solving challenges from multiple-choice prelims to hands-on finals. Efficiency and speed are the key as you bring circuit diagrams to life with provided materials.<br><br> <b>Participation Type:</b> Team Event (2 members)<br><br> <b>Event Details:</b><br><br> <b>Phase 1:</b> <ul> <li>Write assembly code for a given problem statement within the allotted time.</li> <li>Scoring is based on the optimization of the program.</li> </ul> <b>Phase 2:</b> <ul> <li>Design a circuit diagram based on the provided requirements.</li> <li>Materials will be provided.</li> <li>Scoring is based on efficiency and time taken to complete the circuit.</li> </ul>",
+    formLink: "#",
+    icon: "electrical_services",
+  },
+  {
+    name: "Em-Bleed",
+    description:
+      "Transform imagination into pixels at this digital art and design event, sparking creative brilliance.",
+    modalDescription:
+      "Unleash your creativity in EM-BLEED, where design meets expression! This solo event invites participants to craft captivating posters, digital artworks, or GIFs on a given topic. Let your imagination flow freely, adhering to guidelines that foster creativity and respect.<br><br>  <b>Participation Type:</b> Individual Event<br><br> <b>Event Details:</b> <ul> <li>Design a poster, digital artwork, or GIF on a given topic.</li> <li>Designs must not represent individuals, organizations, or brands, and must avoid religious sentiments.</li> <li>Plagiarism is prohibited.</li> <li>Tools: Adobe Photoshop or Adobe Illustrator.</li> <li>Submission Format: JPEG.</li> <li>Platform: macOS.</li> </ul>",
+    formLink: "#",
+    icon: "palette",
   },
   {
     name: "Cube-X",
     description:
       "Twist, turn, and conquer the challenge in this Rubik's Cube-solving showdown.",
     modalDescription:
-      "Get ready for the Rubik`s Cube Challenge! Navigate through mind-bending twists, speed-solving against the clock. Bring your own cube, and let the colors whirl in a solo showdown of skill and speed!<br><br>Rules:<ul><li>Team Size: One</li><li>Mobile stopwatches used as timers (two minutes per solve).</li><li>Participants must bring their own Rubik’s cube.</li></ul>",
-    formLink: "https://docs.google.com/forms/d/1J96ZKV4vW60g6WOfGldAAHQm5qH3m2uU0H-X217jBBk",
+      "Get ready for the Rubik`s Cube Challenge! Navigate through mind-bending twists, speed-solving against the clock. Bring your own cube, and let the colors whirl in a solo showdown of skill and speed!<br><br> <b>Participation Type:</b> Individual Event<br><br> <b>Event Details:</b> <ul> <li>A Rubik’s Cube challenge.</li> <li>Time limit: 2 minutes per solve.</li> <li>Participants must bring their own Rubik’s cube.</li> <li>Timing will be recorded using mobile stopwatches.</li> </ul>",
+    formLink: "#",
     icon: "deployed_code",
+  },
+  {
+    name: "Byte Tales",
+    description:
+      "Sculpt powerful narratives in tiny spaces, where words spark worlds in microfiction mastery",
+    modalDescription:
+      "Dive into the world of micro storytelling with BYTE TALES! Unleash your creativity in bite-sized paragraphs, each a narrative gem. Explore diverse themes and craft compelling tales within the tight embrace of a 50-word limit.<br><br> <b>Participation Type:</b> Individual Event<br><br> <b>Event Details:</b> <ul> <li><b>Format:</b> On-line event.</li> <li><b>Task:</b> Write a short paragraph (50 words) on a given theme.</li> </ul>",
+    formLink: "#",
+    icon: "auto_stories",
+  },
+  {
+    name: "Crypt-X",
+    description:
+      "Dive into the cryptic challenge, solve puzzles & crack encrypted messages.",
+    modalDescription:
+      "Unlock the secrets of encryption in CRYPT-X! Dive into the world of cipher codes, where participants embark on a quest to break through cryptographic puzzles. Whether you`re a novice or an encryption expert, CRYPT-X promises an exciting challenge for all!<br><br> <b>Participation Type:</b> Individual  Event<br><br> <b>Event Details:</b><br> <ul> <li>A set of n questions will be given in password-protected .txt files.</li> <li>The first question will be accessible to every participant.</li> <li>The answer to each question serves as the password for the next file.</li> </ul>",
+    formLink: "#",
+    icon: "key",
   },
   {
     name: "Snappit",
     description:
       "Capture the essence of moments, express creativity through lenses in this captivating photography event.",
     modalDescription:
-      "Join Snappit, a celebration of smartphone photography! In this solo event, capture moments that speak volumes. Unleash your creativity with specific editing techniques while ensuring originality, fairness, and adherence to ethical standards.<ul><li>Team Size: One</li><li>Single entry per participant, capturing images exclusively with smartphones (no DSLR/Digital Camera).</li><li>Original photos with geotagged feature enabled.</li><li>Allowed editing includes cropping and color correction; heavy manipulations altering reality are not accepted.</li><li>Disqualification for plagiarism, inappropriate content, and rule violations.</li><li>Rules ensure fairness, creativity, and legal/ethical compliance.</li></ul>",
-    formLink: "https://docs.google.com/forms/d/1gL40tkqImvGKMF-Olf-T3BeyJJB3-a-86E7X88xmBTU",
+      "Join Snappit, a celebration of smartphone photography! In this solo event, capture moments that speak volumes. Unleash your creativity with specific editing techniques while ensuring originality, fairness, and adherence to ethical standards.<br><br><b>Participation Type:</b> Individual Event<br><br> <b>Event Details:</b> <ul> <li>Submit a single smartphone-captured image on a given theme.</li> <li>DSLR/Digital Camera photography is not allowed.</li> <li>Original images with geotagging feature enabled is required.</li> <li>Basic editing (cropping, color correction) is allowed.</li> <li>Heavy manipulations altering the reality of the image are not acceptable.</li> <li>Plagiarism, inappropriate content, and violation of rules lead to disqualification.</li> </ul>",
+    formLink: "#",
     icon: "photo_camera",
   },
   {
@@ -167,8 +176,8 @@ const eventDetails = [
     description:
       "Tackle number puzzles, sharpen your mind, and conquer Sudoku mastery in this event.",
     modalDescription:
-      "Immerse yourself in the world of Sudo-X, where Sudoku enthusiasts embark on a thrilling challenge. With 4 Sudoku problems to solve, speed and precision are key. Be the fastest to conquer them all and claim victory in this solo puzzle-solving journey!<ul><li>Team Size: One</li><li>Solve 4 Sudoku problems sequentially; participants can proceed to the next one only after solving the current.</li><li>The fastest solver wins.</li></ul>",
-    formLink: "https://docs.google.com/forms/d/1WrktDQ3nE4Aqew6UJl38AHutngixkZDnz2PZmXe2UT0",
+      "Immerse yourself in the world of Sudo-X, where Sudoku enthusiasts embark on a thrilling challenge. With 4 Sudoku problems to solve, speed and precision are key. Be the fastest to conquer them all and claim victory in this solo puzzle-solving journey!<br><br> <b>Participation Type:</b> Individual Event<br><br> <b>Event Details:</b> <ul> <li>Each participant will be given 4 Sudoku problems to solve. Only when the participant solves one problem, can he/she proceed to the next problem.</li> <li>The fastest to solve all the problems will be adjudged the winner.</li> <li>In case of a tie, winners will be determined based on the final arrangements closest to the actual solution.</li> </ul>",
+    formLink: "#",
     icon: "grid_on",
   },
 ];
