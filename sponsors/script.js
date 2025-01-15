@@ -1,81 +1,14 @@
 // REMEMBER TO REMOVE GREYSCALE ON IMAGES
 const sponsorDetails = [
   {
-    groupName: "Top Sponsors",
+    groupName: "Study Abroad Partner",
     sponsorsArray: [
       {
-        name: "Newton School",
-        sponsorType: "Broadband Partner",
-        imageSrc: "/assets/images/sponsor-logos/gtpl-removebg-preview.png",
+        name: "Studies In Overseas",
+        sponsorType: "Study Abroad Partner",
+        imageSrc: "/assets/images/sponsor-logos/SIO.svg",
       },
 
-    ],
-  },
-  {
-    groupName: "Powered By",
-    sponsorsArray: [
-      {
-        name: "Merlin Group",
-        sponsorType: "",
-        imageSrc: "/assets/images/sponsor-logos/merlin.png",
-        link: "https://www.merlinprojects.com/"
-      },
-    ],
-  },
-  {
-    groupName: "Technology Partner",
-    sponsorsArray: [
-      {
-        name: "LapITUp",
-        sponsorType: "",
-        imageSrc: "/assets/images/sponsor-logos/lap-it-up.jpg",
-        link: "https://www.lapitup.shop",
-      },
-    ],
-  },
-  {
-    groupName: "Cyber Security Partner",
-    sponsorsArray: [
-      {
-        name: "BIT IT",
-        sponsorType: "",
-        imageSrc: "/assets/images/sponsor-logos/bitit.jpg",
-        link: "https://www.jsdl.in/DT-37SQDX4H",
-      },
-    ],
-  },
-  {
-    groupName: "Exclusive Radio Partner",
-    sponsorsArray: [
-      {
-        name: "91.9 Friends FM",
-        sponsorType: "",
-        imageSrc: "/assets/images/sponsor-logos/91.9-removebg-preview.png",
-      },
-    ],
-  },
-  {
-    groupName: "Event Partners",
-    sponsorsArray: [
-      {
-        name: "Coding Ninja",
-        sponsorType: "Codeplay Event Partner",
-        imageSrc:
-          "/assets/images/sponsor-logos/coding-ninja.jpg",
-        link: "https://www.codingninjas.com/"
-      },
-    ],
-  },
-  {
-    groupName: "eXabyte Partners",
-    sponsorsArray: [
-      {
-        name: "Cooke & Kelvey",
-        sponsorType: "",
-        imageSrc:
-          "/assets/images/sponsor-logos/c-n-k.jpg",
-        link: "https://cookeandkelvey.com"
-      },
     ],
   },
 ];
@@ -155,7 +88,9 @@ const otherSponsorsDivMobile = document.querySelector(".other-sponsors-mobile");
 //   topSponsorsDivDesktop.appendChild(newTopSponsorsDiv);
 // });
 
-const otherSponsors = sponsorDetails.slice(1);
+// FIXME(NimComPoo): Do not remove top sponsor for now please
+// const otherSponsors = sponsorDetails.slice(1);
+const otherSponsors = sponsorDetails;
 otherSponsors.forEach((item) => {
   let newSponsorGroupDesktopHTML = `
             <header class="pixelated">${item.groupName}</header>

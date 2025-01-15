@@ -73,7 +73,7 @@ const eventDetails = [
     icon: "language",
   },
   {
-    name: "Exathon",
+    name: "eXathon",
     description:
       "Code, collaborate, and innovate in a dynamic hybrid hackathon experience",
     modalDescription:
@@ -135,6 +135,7 @@ const eventDetails = [
     formLink: "#",
     icon: "palette",
   },
+	/*
   {
     name: "Cube-X",
     description:
@@ -144,6 +145,7 @@ const eventDetails = [
     formLink: "#",
     icon: "deployed_code",
   },
+  */
   {
     name: "Byte Tales",
     description:

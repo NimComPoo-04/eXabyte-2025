@@ -170,7 +170,7 @@ const profileDetails = [
     ],
   },
   {
-    category: "Web Development",
+    category: "Past Contributors",
     members: [
       {
         name: "Sayantan Ghosh",
@@ -679,7 +679,7 @@ function openItems(n) {
   items_wrapper[n].style.height = val + 45 + 'px';
   items_wrapper[n].style.transitionDelay = "0.12s";
   profile_card[n].style.bottom = "12px";
-  profile_card[n].style.boxShadow = "rgba(240, 100, 240, 0.4) 0px 5px, rgba(240, 100, 240, 0.3) 0px 10px, rgba(240, 100, 240, 0.2) 0px 15px, rgba(240, 100, 240, 0.1) 0px 20px, rgba(240, 100, 240, 0.05) 0px 25px"
+  profile_card[n].style.boxShadow = "rgba(255, 255, 255,  0.4) 0px 5px, rgba(255, 255, 255,  0.3) 0px 10px, rgba(255, 255, 255,  0.2) 0px 15px, rgba(255, 255, 255,  0.1) 0px 20px, rgba(255, 255, 255,  0.05) 0px 25px"
 }
 
 function closeItems(n) {
