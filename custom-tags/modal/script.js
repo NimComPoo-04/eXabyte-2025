@@ -32,7 +32,7 @@ function openModal(headerName, description, link) {
         modalLink.href = "";
     } else {
         modalLink.style.display = "flex";
-        modalBottom.style.backgroundColor = "rgb(255, 213, 136)";
+        modalBottom.style.backgroundColor = "#E2C6E9";
         modalLink.href = link;
     }
 }

@@ -2,15 +2,15 @@
 let profileCount = 1;
 
 const profileDetails = [
-	{
-		category: "",
-		members: [
-			{
-				name: "Sahil Dudhoria",
-				phone: "+918777094257",
-				email: "sahildudhoria@gmail.com",
-				position: "Convenor",
-			},
+  {
+    category: "",
+    members: [
+      {
+        name: "Sahil Dudhoria",
+        phone: "+918777094257",
+        email: "sahildudhoria@gmail.com",
+        position: "Convenor",
+      },
       {
         name: "Sania Rahaman",
         phone: "+918391870993",
@@ -18,32 +18,27 @@ const profileDetails = [
         position: "Co-Convenor",
         insta: "https://www.instagram.com/__sania__17?igsh=YzdwYnNjMjlnZXdu",
       },
-		],
-	},
+    ],
+  },
   {
-    category: "Working Committee Members",
+    category: "Core Committe Member",
     members: [
       {
-        name: "Sahil Dudhoria",
-        phone: "+918777094257",
-        email: "sahildudhoria@gmail.com",
-        position: "WCM",
-      },
-      {
-        name: "Sulagna Chatterjee",
-        phone: "+918100293262",
-        email: "csulagna.03@gmail.com",
-        position: "WCM",
-        insta: "https://www.instagram.com/sulagna_cjee?igsh=MWdybzQzeTMwMDZvcw==",
-        linkedin: "https://www.linkedin.com/in/sulagna-chatterjee-607702221",
+        name: "Soham Banerjee",
+        phone: "+919830288064",
+        position: "CCM",
       },
       {
         name: "Debarshi Mukherjee",
         phone: "+919051464021",
-        email: "debarshigdsc@gmail.com",
-        position: "WCM",
-        insta: "https://www.instagram.com/deboz500?igsh=emFqcGU2dDYzdnFx",
-        linkedin: "https://www.linkedin.com/in/debarshi-mukherjee-336544190?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        position: "CCM",
+        insta: "https://www.instagram.com/deboz500/",
+        linkedin: "https://www.linkedin.com/in/debarshi-mukherjee-336544190",
+      },
+      {
+        name: "Lavanya Singh",
+        phone: "+918337036490",
+        position: "CCM"
       },
     ],
   },
@@ -51,132 +46,137 @@ const profileDetails = [
     category: "Organising Committee Members",
     members: [
       {
-        name: "Shahmeer Mondal",
-        phone: "+916296453513",
-        email: "shahmeermondal1576@gmail.com",
+        name: "Priyanki Dutta",
+        phone: "+917980118484",
         position: "Events OCM",
-        insta: "https://www.instagram.com/__sambitious__",
-        linkedin: "https://www.linkedin.com/in/shahmeer24mondal"
+        linkedin: "https://www.linkedin.com/in/priyanki-dutta-101a52263",
+        insta: "https://www.instagram.com/priyanki__22"
       },
       {
-        name: "Riddhick Dalal",
-        phone: "+919735593303",
-        email: "riddhick14@gmail.com",
-        position: "Events OCM",
-        insta: "https://www.instagram.com/riddhick_14",
-        linkedin: "https://www.linkedin.com/in/riddhick-dalal"
+        name: "Kinjal Choudhary",
+        phone: "8759535772",
+        linkedin: "https://www.linkedin.com/in/kinjal-choudhary-969561250",
+        github: "https://github.com/choudharysxc",
+        position: "Events OCM"
       },
       {
-        name: "Priyanshu Acharya",
-        phone: "+918116209351",
-        email: "priyanshu1802@outlook.com",
-        position: "Public Relations OCM",
-        insta: "https://www.instagram.com/priyanshu___acharya/",
-        linkedin: "http://www.linkedin.com/in/priyanshu-acharya",
+        name: "Shalini Ghosh",
+        phone: "+919073214375",
+        position: "PR OCM",
+        linkedin: "www.linkedin.com/in/shalinighosh01",
+        insta: "https://www.instagram.com/_shalinighosh_/"
       },
       {
-        name: "Anushree Chakraborty",
-        phone: "+918240942176",
-        email: "anushreechakraborty56@gmail.com",
-        position: "Public Relations OCM",
-        insta: "https://www.instagram.com/shreeee.c?igsh=MXJ6M3B1eTFzM3pvdQ==",
-        linkedin: "https://www.linkedin.com/in/anushree-chakraborty-3a6814299"
+        name: "Subhagata Sardar",
+        phone: "+919123786105",
+        linkedin: "https://www.linkedin.com/in/subhagatasardar",
+        github: "https://github.com/subhagataa",
+        insta: "https://www.instagram.com/subhagata.exe",
+        position: "PR OCM"
       },
       {
-        name: "Ankita Jana",
-        phone: "+918282967854",
-        email: "ankitajana60@gmail.com",
-        position: "Finance OCM",
-        insta: "https://www.instagram.com/ankitajana21",
-        linkedin: "https://www.linkedin.com/in/ankitajana21"
-      },
-      {
-        name: "Aditya Vikram Singhania",
-        phone: "+918017712562",
-        email: "mailingadityavs@gmail.com",
-        position: "Finance OCM",
-        linkedin: "https://www.linkedin.com/in/aadityavs"
-      },
-      {
-        name: "Ayush Ghatak",
-        phone: "+919818643246",
-        email: "ayushghatak@gmail.com",
-        position: "Hospitality OCM",
-        insta: "https://www.instagram.com/__ghatakayush__?igsh=MWNteDA1N2g4N3QzeQ==",
-        linkedin: "https://www.linkedin.com/in/ayush-ghatak-7b88ba24b"
-      },
-      {
-        name: "Basabdutta Mondal",
-        phone: "+918777795954",
-        email: "basabduttamondal@gmail.com",
-        position: "Hospitality OCM",
-        insta: "https://www.instagram.com/basabdutta22",
-      },
-      {
-        name: "Avinandan Mukherjee",
-        phone: "+918274056062",
-        email: "ea2avi10@gmail.com",
+        name: "Aman Kumar Gupta",
+        phone: "+918910188325",
         position: "Logistics OCM",
-        insta: "https://www.instagram.com/mukherjee_avinandan",
-        linkedin: "https://www.linkedin.com/in/avinandan-mukherjee-a824a4241"
+        linkedin: "https://www.linkedin.com/in/aman-gupta-09a50a234",
+        github: "https://github.com/Tenda9776",
+        insta: "https://www.instagram.com/aman_kumar_gupta_/"
       },
       {
-        name: "Ashish Joshi",
-        phone: "+918732083812",
-        email: "army.ashish.joshi@gmail.com",
+        name: "Srijan Sen",
+        phone: "+919903023866",
         position: "Logistics OCM",
-        insta: "https://www.instagram.com/ashish_joshiiiii?igsh=M2pkOTM5Mzl6Zmkw",
+        insta: "https://www.instagram.com/ad.roit"
       },
-    ],
-  },
-  {
-    category: "Videography and Photography",
-    members: [
       {
-        name: "Mekhla Dutta",
-        phone: "+918100523997",
-        email: "mekhlabiz@gmail.com",
-        position: "Videography Lead",
-        insta: "https://www.instagram.com/mekhlabiz?utm_source=qr&igsh=MXNuMGRzbmZ1cjM1ZQ==",
-      }
-    ],
-  },
-  {
-    category: "Design",
-    members: [
+        name: "Madhuja Roy",
+        phone: "+918910616433",
+        linkedin: "https://www.linkedin.com/in/madhuja-roy-7b0352220",
+        insta: "https://www.instagram.com/m.a.d.h.u.j.a",
+        position: "Hospitality OCM"
+      },
       {
-        name: "James Gomes",
-        phone: "+917479378945",
-        email: "designedbyjames05@gmail.com",
-        position: "Design Lead",
-        insta: "https://www.instagram.com/irl_james?igsh=MTN6c3M1ZjUzZWhzeg==",
-        linkedin: "https://www.linkedin.com/in/james-gomes-129957250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-      }
-    ],
-  },
-  {
-    category: "Systems",
-    members: [
+        name: "Aritra Patra",
+        phone: "+919830743287",
+        insta: "https://www.instagram.com/ugghhhritro_",
+	position: "Hospitality OCM"
+      },
+      {
+        name: "Aditya Dutta",
+        phone: "+919073524821",
+        linkedin: "https://www.linkedin.com/in/aditya-dutta-ad0109",
+        position: "Finance OCM"
+      },
+      {
+        name: "Sanchayita Ghosh",
+        phone: "+918777081592",
+        insta: "https://www.instagram.com/yoursanchh_",
+        position: "Finance OCM"
+      },
+      {
+        name: "Bijetree Basak",
+        phone: "+917059170853",
+        position: "Design Lead"
+      },
+      {
+        name: "Siddhanta Roy",
+        phone: "+918777837321",
+        linkedin: "https://www.linkedin.com/in/siddhanta-roy-54575028b",
+        insta: "https://www.instagram.com/_.siddhantaa._",
+        position: "Photography Lead"
+      },
+      {
+        name: "Sanmit Biswas",
+        phone: "+919732962064",
+        linkedin: "https://www.linkedin.com/in/sanmit-biswas-682a11321",
+        insta: "https://www.instagram.com/unheard.poet26",
+        position: "Videography Lead"
+      },
+      {
+        name: "Shrabana Banerjee",
+        phone: "+917980598584",
+        linkedin: "https://www.linkedin.com/in/shrabana-banerjee-5ab5a233a",
+        insta: "https://www.instagram.com/being_shrabana._",
+        position: "Cultural Co-Ordinator"
+      },
+      {
+        name: "Aditi Das",
+	phone: "+918697945875",
+	position: "Cultural Co-Ordinator"
+      },
+      {
+        name: "Sudipta Mandal",
+        phone: "+918900334369",
+        linkedin: "https://www.linkedin.com/in/sudipta-mandal-b46564250",
+        github: "https://github.com/SudiptaMandal01",
+        insta: "https://www.instagram.com/iamsudiptamandal",
+        position: "Systems Co-Ordinator"
+      },
       {
         name: "Rudra Biswas",
         phone: "+918653209920",
-        email: "rudraexabyte@gmail.com",
-        position: "Systems Coordinator",
-        insta: "https://www.instagram.com/rudra.zsh",
-        linkedin: "https://www.linkedin.com/in/rudra-biswas-376723251"
-      }
-    ],
-  },
-  {
-    category: "Cultural",
-    members: [
+        linkedin: "https://www.linkedin.com/in/rudra-biswas-376723251",
+        github: "https://github.com/rudra-zsh",
+        position: "Systems Co-Ordinator"
+      },
       {
-        name: "Rupsa Paul",
-        phone: "+918420023791",
-        email: "rupsapaul97@gmail.com",
-        position: "Cultural Coordinator",
-        insta: "https://www.instagram.com/dancephilic_rupsa",
-        linkedin: "https://www.linkedin.com/in/rupsa-paul-80aa71257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        name: "Bhaskar Joyti Mitra",
+        phone: "+918240941527",
+        position: "Digital Outreach Lead"
+      },
+      {
+        name: "Aanjishnu Bhattacharyya",
+        phone: "+919123775964",
+        github: "https://www.github.com/NimComPoo-04",
+        insta: "https://www.instagram.com/__nimcompoo__",
+        position: "Web Dev Lead"
+      },
+      {
+	name: "Aatreyee Bhattacharjee",
+	phone: "+919330794980",
+	linkedin: "https://www.linkedin.com/in/aatreyee-bhattacharjee-31a82a28b",
+	insta: "https://www.instagram.com/aatreyeeeee",
+	position: "Web Dev Lead"
       }
     ],
   },
@@ -223,7 +223,6 @@ const profileDetails = [
         email: "diptanilsaha@protonmail.com",
         position: "Backend Dev"
       },
-
     ],
   }
 ]
@@ -233,6 +232,7 @@ const mobileWrapper = document.querySelector(".mobile .middle-section")
 profileDetails.forEach((item) => {
   let innerHTML = ``;
   item.members.forEach((profile) => {
+    const nothin = profile.email || profile.insta || profile.linkedin || profile.twitter || profile.website || profile.github || false;
     let content = `
         <div class="profile-card card-${profileCount}">
             <div class="card-wrapper-1">
@@ -247,15 +247,22 @@ profileDetails.forEach((item) => {
               <div class="role">${profile.position}</div>
               <div class="profile-icons-group flex items-center">
                 <a id="call" href="tel:${profile.phone}"
-                  ><span class="material-symbols-outlined">call</span></a
+                 ${nothin ? `` : `style="margin-right:0px;"`} ><span class="material-symbols-outlined">call</span></a
                 >
                 <div class="more-items relative flex flex-dir-col">
-                  <a class="more-item-links" href="mailto:${profile.email}"
+		  ${profile.email ?
+	`
+		  <a
+		    class="more-item-links"
+		    href="mailto: ${profile.email}"
                     ><img
                       class="mailbox-icon"
                       src="/assets/logos/mail-outlined.svg"
                       alt="mail"
                   /></a>
+		  ` : ``
+		  }
+
                   ${profile.insta ?
         `
                         <a
@@ -326,11 +333,13 @@ profileDetails.forEach((item) => {
                         /></a>
                 ` : ``
       }
+      ${nothin ? `
                   <div class="plus-icon-wrapper close" onclick="moreItems(${profileCount - 1})">
                     <span class="plus-icon material-symbols-outlined"
                       >add_circle</span
                     >
                   </div>
+		  `: ``}
                 </div>
               </div>
             </div>
@@ -358,6 +367,7 @@ const desktopWrapper = document.querySelector(".desktop .RHS");
 profileDetails.forEach((item) => {
   let innerHTML = ``;
   item.members.forEach((profile) => {
+    const nothin = profile.email || profile.insta || profile.linkedin || profile.twitter || profile.website || profile.github || false;
     let content = `
             <div class="profile-card card-${profileCount}">
               <div class="card-wrapper-1">
@@ -371,7 +381,7 @@ profileDetails.forEach((item) => {
               <div class="card-wrapper-2 flex justify-between items-center">
                 <div class="role">${profile.position}</div>
                 <div class="profile-icons-group flex items-center">
-                  <div id="call">
+                  <div id="call" ${nothin ? `` : `style="margin-right:0px;"`}>
                     <div class="phone-number-box hide-number">
                       <span class="phone-number">${profile.phone}</span>
                       <span
@@ -388,12 +398,19 @@ profileDetails.forEach((item) => {
                     >
                   </div>
                   <div class="more-items relative flex flex-dir-col">
-                    <a class="more-item-links" href="mailto:${profile.email}"
+		  ${profile.email ?
+	`
+		    <a
+		      class="more-item-links"
+		      href="mailto: ${profile.email}"
                       ><img
                         class="mailbox-icon"
                         src="/assets/logos/mail-outlined.svg"
                         alt="mail"
                     /></a>
+		    ` : ``
+	}
+
                     ${profile.insta ?
         `
                     <a
@@ -464,6 +481,7 @@ profileDetails.forEach((item) => {
                         /></a>
                 ` : ``
       }
+      ${nothin ? `
                     <div class="plus-icon-wrapper close" onclick="moreItems(${profileCount - 1})">
                       <!-- <span class="plus-icon material-symbols-outlined">add_circle</span> -->
                       <img
@@ -472,6 +490,7 @@ profileDetails.forEach((item) => {
                         alt=""
                       />
                     </div>
+		  `:``}
                   </div>
                 </div>
               </div>
