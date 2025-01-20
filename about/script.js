@@ -2,6 +2,24 @@
 let profileCount = 1;
 
 const profileDetails = [
+	{
+		category: "",
+		members: [
+			{
+				name: "Sahil Dudhoria",
+				phone: "+918777094257",
+				email: "sahildudhoria@gmail.com",
+				position: "Convenor",
+			},
+      {
+        name: "Sania Rahaman",
+        phone: "+918391870993",
+        email: "saniarahaman17@gmail.com",
+        position: "Co-Convenor",
+        insta: "https://www.instagram.com/__sania__17?igsh=YzdwYnNjMjlnZXdu",
+      },
+		],
+	},
   {
     category: "Working Committee Members",
     members: [
@@ -18,13 +36,6 @@ const profileDetails = [
         position: "WCM",
         insta: "https://www.instagram.com/sulagna_cjee?igsh=MWdybzQzeTMwMDZvcw==",
         linkedin: "https://www.linkedin.com/in/sulagna-chatterjee-607702221",
-      },
-      {
-        name: "Sania Rahaman",
-        phone: "+918391870993",
-        email: "saniarahaman17@gmail.com",
-        position: "WCM",
-        insta: "https://www.instagram.com/__sania__17?igsh=YzdwYnNjMjlnZXdu",
       },
       {
         name: "Debarshi Mukherjee",
@@ -219,51 +230,6 @@ const profileDetails = [
 
 const mobileWrapper = document.querySelector(".mobile .middle-section")
 
-mobileWrapper.innerHTML += `
-        <div class="profile-card card-1">
-          <div class="card-wrapper-1">
-            <img
-              src="/assets/images/team-pictures/soumyadeep.jpg"
-              alt="profile pic"
-              class="profile-picture"
-            />
-            <div class="profile-name pixelated">Soumyadeep Lobwo</div>
-          </div>
-          <div class="card-wrapper-2 flex justify-between items-center">
-            <div class="role">Convenor</div>
-            <div class="profile-icons-group flex items-center">
-              <a id="call" href="tel:+917980145025"
-                ><span class="material-symbols-outlined">call</span></a
-              >
-              <div class="more-items relative flex flex-dir-col">
-                <a class="more-item-links" href="mailto:soumyadeeplobwo@gmail.com"
-                  ><img
-                    class="mailbox-icon"
-                    src="/assets/logos/mail-outlined.svg"
-                    alt="mail"
-                /></a>
-                <a
-                  class="more-item-links"
-                  href="http://www.instagram.com/soumyadeepanthony"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><img
-                    class="insta-icon"
-                    src="/assets/logos/insta.svg"
-                    alt="instagram"
-                /></a>
-                <div class="plus-icon-wrapper close" onclick="moreItems(0)">
-                  <span class="plus-icon material-symbols-outlined"
-                    >add_circle</span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-`
-profileCount++;
-
 profileDetails.forEach((item) => {
   let innerHTML = ``;
   item.members.forEach((profile) => {
@@ -388,69 +354,6 @@ profileDetails.forEach((item) => {
 let callButtonCount = 0;
 
 const desktopWrapper = document.querySelector(".desktop .RHS");
-desktopWrapper.innerHTML += `
-    <div class="profile-card card-${profileCount} mt-2rem">
-        <div class="card-wrapper-1">
-          <img
-            src="/assets/images/team-pictures/soumyadeep.jpg"
-            alt="profile pic"
-            class="profile-picture"
-          />
-          <div class="profile-name">Soumyadeep Lobwo</div>
-        </div>
-        <div class="card-wrapper-2 flex justify-between items-center">
-          <div class="role">Convenor</div>
-          <div class="profile-icons-group flex items-center">
-            <div id="call">
-              <div class="phone-number-box hide-number">
-                <span class="phone-number">+917980145025</span>
-                <span
-                  class="copy-icon material-symbols-outlined"
-                  title="copy"
-                  onclick="copyNumber(${callButtonCount})"
-                  >content_copy</span
-                >
-              </div>
-              <span
-                class="call-icon material-symbols-outlined"
-                onclick="phoneBox(${callButtonCount})"
-                >call</span
-              >
-            </div>
-            <div class="more-items relative flex flex-dir-col">
-              <a class="more-item-links" href="mailto:soumyadeeplobwo@gmail.com"
-                ><img
-                  class="mailbox-icon"
-                  src="/assets/logos/mail-outlined.svg"
-                  alt="mail"
-              /></a>
-              <a
-                class="more-item-links"
-                href="http://www.instagram.com/soumyadeepanthony"
-                target="_blank"
-                rel="noopener noreferrer"
-                ><img
-                  class="insta-icon"
-                  src="/assets/logos/insta.svg"
-                  alt="instagram"
-              /></a>
-              <div class="plus-icon-wrapper close" onclick="moreItems(${profileCount - 1})">
-                <!-- <span class="plus-icon material-symbols-outlined">add_circle</span> -->
-                <img
-                  class="plus-icon plus-icon-desktop plus-icon-desktop-hover"
-                  src="/assets/logos/add-plus-circle.svg"
-                  alt=""
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    
-`
-
-profileCount++;
-callButtonCount++;
 
 profileDetails.forEach((item) => {
   let innerHTML = ``;

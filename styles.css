@@ -9,12 +9,14 @@ body::before {
   width: 100vw;
   position: fixed;
   top: 0;
-  /* background:
+  background:
     linear-gradient(90deg, var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 8vmin 8vmin,
-    linear-gradient(var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 8vmin 8vmin; */
+    linear-gradient(var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 8vmin 8vmin;
   mask: radial-gradient(white, transparent);
-  /* background-image: radial-gradient(rgba(0,0,0,0) 1.5px,rgba(0, 0, 0, 0.3) 1px);
-    background-size: 14px 14px; */
+	/*
+  background-image: radial-gradient(rgba(0,0,0,0) 1.5px,rgba(0, 0, 0, 0.3) 1px);
+    background-size: 50px 50px;
+		*/
   z-index: 3;
 }
 

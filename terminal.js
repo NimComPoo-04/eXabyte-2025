@@ -9,7 +9,7 @@ var commandOutputs = {
     about us
     `,
   date: `
-    12th and 13th Feb
+    18th and 19th Feb
     `,
   location: `
     St. Xavier's College (Autonomous), Kolkata
@@ -20,8 +20,8 @@ var commandOutputs = {
   `,
   info: `
   The Post Graduate and Research Dept. of St. Xavier's College (Autonomous), Kolkata 
-  organizes the eight edition of the Annual Technological Festival,
-  eXabyte 2025' with the theme "Beyond Binary" on 12th and 13th February, 2025. 
+  organizes the ninth edition of the Annual Technological Festival,
+  eXabyte 2025' with the theme "Iterate to Innovate" on 18th and 19th February, 2025. 
   As an exemplar to showcase our eminence in the world of the technology, 
   the students at the Department of Computer Science strive to bring together future 
   legionaries of the technological arena and kindle in them a thirst for answers, quest for horizons.

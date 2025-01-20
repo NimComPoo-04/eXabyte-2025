@@ -33,7 +33,7 @@ if (localStorage.getItem("fontsCached")) {
     if (window.location.pathname == "/" && !localStorage.getItem("playTransitionAnimation")) {
         reset();
     } else {
-        loader.classList.add("hidden-no-anim")
+        loader?.classList.add("hidden-no-anim")
     }
 }
 
