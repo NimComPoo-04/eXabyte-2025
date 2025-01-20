@@ -446,6 +446,7 @@ desktopWrapper.innerHTML += `
           </div>
         </div>
     </div>
+    
 `
 
 profileCount++;
