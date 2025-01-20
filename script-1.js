@@ -23,7 +23,7 @@
 //     if(!event.target.className.includes('info-button') && !event.target.className.includes('about-pop-up') && !event.target.className.includes('about-details-wrapper') && !event.target.className.includes('close-pop-up') )
 //     closePopUp();
 // });
-const futureDate = new Date("2025-02-12 10:00").getTime();
+const futureDate = new Date("2025-02-18 10:00").getTime();
 
 // Update the countdown every second
 const interval = setInterval(function () {
