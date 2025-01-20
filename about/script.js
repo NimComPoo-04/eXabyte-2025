@@ -249,7 +249,7 @@ profileDetails.forEach((item) => {
                 <a id="call" href="tel:${profile.phone}"
                  ${nothin ? `` : `style="margin-right:0px;"`} ><span class="material-symbols-outlined">call</span></a
                 >
-                <div class="more-items relative flex flex-dir-col">
+		<div class="more-items relative flex flex-dir-col" ${nothin ? `` : `style="display:none;"`}>
 		  ${profile.email ?
 	`
 		  <a
@@ -333,13 +333,11 @@ profileDetails.forEach((item) => {
                         /></a>
                 ` : ``
       }
-      ${nothin ? `
                   <div class="plus-icon-wrapper close" onclick="moreItems(${profileCount - 1})">
                     <span class="plus-icon material-symbols-outlined"
                       >add_circle</span
                     >
                   </div>
-		  `: ``}
                 </div>
               </div>
             </div>
@@ -397,7 +395,7 @@ profileDetails.forEach((item) => {
                       >call</span
                     >
                   </div>
-                  <div class="more-items relative flex flex-dir-col">
+                  <div class="more-items relative flex flex-dir-col" ${nothin ? `` : `style="display:none;"`}>
 		  ${profile.email ?
 	`
 		    <a
@@ -410,7 +408,6 @@ profileDetails.forEach((item) => {
                     /></a>
 		    ` : ``
 	}
-
                     ${profile.insta ?
         `
                     <a
@@ -481,7 +478,6 @@ profileDetails.forEach((item) => {
                         /></a>
                 ` : ``
       }
-      ${nothin ? `
                     <div class="plus-icon-wrapper close" onclick="moreItems(${profileCount - 1})">
                       <!-- <span class="plus-icon material-symbols-outlined">add_circle</span> -->
                       <img
@@ -490,7 +486,6 @@ profileDetails.forEach((item) => {
                         alt=""
                       />
                     </div>
-		  `:``}
                   </div>
                 </div>
               </div>
