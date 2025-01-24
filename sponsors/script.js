@@ -8,9 +8,18 @@ const sponsorDetails = [
         sponsorType: "Study Abroad Partner",
         imageSrc: "/assets/images/sponsor-logos/SIO.svg",
       },
-
     ],
   },
+  {
+    groupName: "Cyber-security Training Partner",
+    sponsorsArray: [
+      {
+        name: "Indian School Of Ethical Hacking",
+        sponsorType: "Cyber-security Training Partner",
+        imageSrc: "/assets/images/sponsor-logos/ISOEH.png",
+      },
+    ],
+  }
 ];
 
 
@@ -104,7 +113,7 @@ otherSponsors.forEach((item) => {
     let newSponsorDesktopHTML = `
             <div class="sponsor-card flex-col">
               <div class="brand-logo-desktop">
-                ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="brand-img height-100 width-100" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}</div>
+                ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="brand-img" width="230px" height="150px" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}</div>
               <div class="brand-name-desktop text-center">${sponsor.name}</div>
               <div class="sponsor-title-desktop text-center">${sponsor.sponsorType}</div>
             </div>
@@ -112,7 +121,7 @@ otherSponsors.forEach((item) => {
     let newSponsorMobileHTML = `
         <div class="sponsor-card flex-col">
             <div class="brand-logo">
-              ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="height-100 width-100" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}
+              ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="brand-img" width="300px" height="200px" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}
             </div>
             <div class="brand-name text-center">${sponsor.name}</div>
             <div class="sponsor-title text-center">${sponsor.sponsorType}</div>
