@@ -75,6 +75,18 @@ const profileDetails = [
         position: "PR OCM"
       },
       {
+        name: "Aditya Dutta",
+        phone: "+919073524821",
+        linkedin: "https://www.linkedin.com/in/aditya-dutta-ad0109",
+        position: "Finance OCM"
+      },
+      {
+        name: "Sanchayita Ghosh",
+        phone: "+918777081592",
+        insta: "https://www.instagram.com/yoursanchh_",
+        position: "Finance OCM"
+      },
+      {
         name: "Aman Kumar Gupta",
         phone: "+918910188325",
         position: "Logistics OCM",
@@ -100,18 +112,6 @@ const profileDetails = [
         phone: "+919830743287",
         insta: "https://www.instagram.com/ugghhhritro_",
 	position: "Hospitality OCM"
-      },
-      {
-        name: "Aditya Dutta",
-        phone: "+919073524821",
-        linkedin: "https://www.linkedin.com/in/aditya-dutta-ad0109",
-        position: "Finance OCM"
-      },
-      {
-        name: "Sanchayita Ghosh",
-        phone: "+918777081592",
-        insta: "https://www.instagram.com/yoursanchh_",
-        position: "Finance OCM"
       },
       {
         name: "Bijetree Basak",

@@ -5,7 +5,8 @@ const sponsorDetails = [
     sponsorsArray: [
       {
         name: "Studies In Overseas",
-        sponsorType: "Study Abroad Partner",
+        sponsorType: "",
+	link:"https://studiesinoverseas.com/",
         imageSrc: "/assets/images/sponsor-logos/SIO.svg",
       },
     ],
@@ -15,7 +16,8 @@ const sponsorDetails = [
     sponsorsArray: [
       {
         name: "Indian School Of Ethical Hacking",
-        sponsorType: "Cyber-security Training Partner",
+        sponsorType: "",
+	link:"https://www.isoeh.com/",
         imageSrc: "/assets/images/sponsor-logos/ISOEH.png",
       },
     ],
@@ -113,7 +115,7 @@ otherSponsors.forEach((item) => {
     let newSponsorDesktopHTML = `
             <div class="sponsor-card flex-col">
               <div class="brand-logo-desktop">
-                ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="brand-img" width="230px" height="150px" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}</div>
+                ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="brand-img" width="230px" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}</div>
               <div class="brand-name-desktop text-center">${sponsor.name}</div>
               <div class="sponsor-title-desktop text-center">${sponsor.sponsorType}</div>
             </div>
