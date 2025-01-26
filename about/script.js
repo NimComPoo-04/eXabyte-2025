@@ -21,7 +21,7 @@ const profileDetails = [
     ],
   },
   {
-    category: "Core Committe Member",
+    category: "Core Committee Members",
     members: [
       {
         name: "Soham Banerjee",
