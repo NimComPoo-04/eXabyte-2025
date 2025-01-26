@@ -3,17 +3,17 @@ body {
 }
 
 body::before {
-  --line: hsl(0 0% 60%);
+  /* --line: rgab(255, 255, 255, 0.7); */
   content: "";
   height: 100vh;
   width: 100vw;
   position: fixed;
   top: 0;
+  /*
   background:
-    linear-gradient(90deg, var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 8vmin 8vmin,
-    linear-gradient(var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 8vmin 8vmin;
+    linear-gradient(90deg, var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 6vmin 6vmin,
+    linear-gradient(var(--line) 1px, transparent 1px 8vmin) 0 -5vmin / 6vmin 6vmin;
   mask: radial-gradient(white, transparent);
-	/*
   background-image: radial-gradient(rgba(0,0,0,0) 1.5px,rgba(0, 0, 0, 0.3) 1px);
     background-size: 50px 50px;
 		*/
@@ -269,8 +269,9 @@ button {
   margin-top: 3rem;
 }
 .venue-name {
-  color: rgb(162, 111, 196);
+  color: var(--primary-color);
   font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 .address {
   margin-top: 0.7rem;

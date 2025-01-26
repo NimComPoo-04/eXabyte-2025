@@ -129,27 +129,27 @@ function detectEnter(e) {
             commandFound = true;
             break;
           case "events":
-            window.location.href = ("/events");
+            window.location.href = ("./events");
             outputWrapper.innerHTML += `<br><span class="cmd">${prompt.input.value}</span><br>redirecting...`;
             commandFound = true;
             break;
           case "about":
-            window.location.href = ("/about");
+            window.location.href = ("./about");
             outputWrapper.innerHTML += `<br><span class="cmd">${prompt.input.value}</span><br>redirecting...`;
             commandFound = true;
             break;
           case "x-cryptus":
-            window.location.href = ("/magazines");
+            window.location.href = ("./magazines");
             outputWrapper.innerHTML += `<br><span class="cmd">${prompt.input.value}</span><br>redirecting...`;
             commandFound = true;
             break;
           case "sponsors":
-            window.location.href = ("/sponsors");
+            window.location.href = ("./sponsors");
             outputWrapper.innerHTML += `<br><span class="cmd">${prompt.input.value}</span><br>redirecting...`;
             commandFound = true;
             break;
           case "contacts":
-            window.location.href = ("/contacts");
+            window.location.href = ("./contacts");
             outputWrapper.innerHTML += `<br><span class="cmd">${prompt.input.value}</span><br>redirecting...`;
             commandFound = true;
             break;
