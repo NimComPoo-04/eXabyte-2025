@@ -60,7 +60,7 @@ const eventDetails = [
 	    "Where tech enthusiasts unite, showcasing innovation through coding, workshops, and networking.",
     modalDescription:
       "Welcome to CODEPLAY, where the world of coding transforms into an exhilarating game! Dive into the challenge, whether you`re a seasoned coder or a beginner. Solve puzzles, crack codes, and unravel the magic of programming in this thrilling event!<br><br> <b>Participation Type:</b>  Individual Event (On Campus)<br><br> <b>Event Details:</b> <ul> <li>A competitive coding event focusing on common topics from Data Structures and Algorithms (DSA).</li> <li><b>Question Difficulty:</b> Easy to Hard.</li> <li><b>Allowed Programming Languages:</b> C,C++ & Java.</li> </ul>",
-    fromLink: "https://docs.google.com/forms/d/e/1FAIpQLScViV3hGIBmtpnGPl0UoiHktQqffoTV_rO4xAVR2SuYMGHjAg/viewform?usp=sharing",
+     formLink: "https://docs.google.com/forms/d/e/1FAIpQLScViV3hGIBmtpnGPl0UoiHktQqffoTV_rO4xAVR2SuYMGHjAg/viewform?usp=sharing",
     icon: "data_object"
   },
   {
@@ -69,7 +69,7 @@ const eventDetails = [
       "Unleash creativity & elevate your coding skills at this immersive web development event.",
     modalDescription:
       "Get ready to weave the digital canvas with WEBBED! This solo event challenges participants to craft a stunning stand-alone webpage using HTML, CSS, and vanilla JavaScript. Unleash your creativity with the same set of images provided to all, bringing your design to life!<br><br> <b>Participation Type:</b> Individual Event (On Campus)<br><br> <b>Event Details:</b> <ul> <li>A web designing competition focusing on frontend design.</li> <li>Adding dynamic features is encouraged but not mandatory.</li> <li>All required resources (images, audio files) will be provided on the event day.</li> </ul>",
-    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSe6RFHRJf0NeInST61i9FiHNI5aimSv9FWXtL-JfdFH3MZQbg/viewform?usp=sharing",
+      formLink: "https://docs.google.com/forms/d/e/1FAIpQLSe6RFHRJf0NeInST61i9FiHNI5aimSv9FWXtL-JfdFH3MZQbg/viewform?usp=sharing",
     icon: "language",
   },
   {

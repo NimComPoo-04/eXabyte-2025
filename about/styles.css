@@ -212,7 +212,7 @@ body, html {
 
 .profile-name {
   font-size: 1.5rem;
-  font-family: "product_sans", sans-serif;
+  font-family: "Iceland", sans-serif;
   position: absolute;
   bottom: 0;
   height: 100%;
@@ -233,7 +233,7 @@ body, html {
 }
 
 .role {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: bold;
   padding-bottom: 3px;
 }

@@ -35,6 +35,9 @@ function openModal(headerName, description, link) {
         modalBottom.style.backgroundColor = "#E2C6E9";
         modalLink.href = link;
     }
+
+    modalHeader.classList.add('text-lg');
+    modalWrapper.classList.add('text-base');
 }
 
 function closeModal() {

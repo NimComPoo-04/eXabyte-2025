@@ -19,7 +19,9 @@ body {
   --primary-color: #a58be6;
   --primary-color-text: #523f99;
   --primary-color-text-darker: #1a041a;
-  --accent-color: #ece3ff;
+  --accent-color: #d0bff3; /*#ece3ff;*/
+
+  --primary-font-size: 1.5rem;
 }
 
 canvas {
@@ -241,45 +243,51 @@ canvas {
 }
 
 /* Text */
+/* FONT SIZE BEGIN */
 .text-sm {
   line-height: 1.25;
-  font-size: 1rem;
+  font-size: calc(var(--primary-font-size) + 0rem) /* 1rem */;
 }
 
 .mobile .text-base {
   line-height: 1.35;
-  font-size: 1rem;
+  font-size: calc(var(--primary-font-size) + 0rem) /* 1rem */;
 }
 
 .text-base {
   line-height: 1.35;
-  font-size: 0.97rem;
+  font-size: calc(var(--primary-font-size) - 0.25rem);
 }
 
 .text-md {
   line-height: 1.35;
-  font-size: 1.1rem;
+  font-size: calc(var(--primary-font-size) + 0.1rem) /*1.1rem*/;
 }
 
 .text-lg {
   line-height: 1.5;
-  font-size: 1.25rem;
+  font-size: calc(var(--primary-font-size) + 0.25rem) /*1.1rem*/;
+  /* font-size: 1.25rem; */
 }
 
 .text-xl {
   line-height: 1.5;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+  font-size: calc(var(--primary-font-size) + 0.5rem) /*1.1rem*/;
 }
 
 .text-2xl {
   line-height: 1.75;
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: calc(var(--primary-font-size) + 1rem) /*1.1rem*/;
 }
 
 .text-3xl {
   line-height: 2;
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
+  font-size: calc(var(--primary-font-size) + 1.5rem) /*1.1rem*/;
 }
+/* FONT SIZES END */
 
 .font-light {
   font-weight: lighter;
