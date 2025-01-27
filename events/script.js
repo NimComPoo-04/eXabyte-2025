@@ -104,9 +104,18 @@ const eventDetails = [
     description:
       "Embark on a thrilling clue hunt, decode mysteries, and unravel the enigma.",
     modalDescription:
-      "Embark on an adventurous journey with X-HUNT! In this clue hunting extravaganza, participants decode mysteries and solve puzzles. The treasure hunt unfolds, promoting teamwork and quick thinking, leading to exciting group-fies at every clue location.<br><br> <b>Participation Type:</b> Team Event (3 members - On Campus)<br><br> <b>Event Details:</b> <ul> <li>A treasure hunt requiring teamwork to solve clues.</li> <li>Each team must have 4 members with at least one member being from St. Xavier’s College (Autonomous), Kolkata.</li> <li>Teams must stay together and use smartphones with active internet and WhatsApp.</li> <li>Each team will be given a clue at the beginning of the treasure hunt from the registration desk. It will be up to the teams to decipher the said clue.</li> <li>Solve each clue to reach a location, take a group-fie with the clue, and proceed.</li> <li>Scoring is based on task completion and time taken.</li> <li>Teams must return to the starting point to be complete their participation.</li> </ul>",
+      "Embark on an adventurous journey with X-HUNT! In this clue hunting extravaganza, participants decode mysteries and solve puzzles. The treasure hunt unfolds, promoting teamwork and quick thinking, leading to exciting group-fies at every clue location.<br><br> <b>Participation Type:</b> Team Event (3 members - On Campus)<br><br> <b>Event Details:</b> <ul> <li>A treasure hunt requiring teamwork to solve clues.</li> <li>Each team must have 3 members with at least one member being from St. Xavier’s College (Autonomous), Kolkata.</li> <li>Teams must stay together and use smartphones with active internet and WhatsApp.</li> <li>Each team will be given a clue at the beginning of the treasure hunt from the registration desk. It will be up to the teams to decipher the said clue.</li> <li>Solve each clue to reach a location, take a group-fie with the clue, and proceed.</li> <li>Scoring is based on task completion and time taken.</li> <li>Teams must return to the starting point to be complete their participation.</li> </ul>",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLSeJWijFoNEl9OM_9qOPI8AUaRKf21ydm9KZ70P1UcmJVAXPVA/viewform?usp=sharing",
     icon: "map",
+  },
+  {
+    name: "Snappit",
+    description:
+      "Capture the essence of moments, express creativity through lenses in this captivating photography event.",
+    modalDescription:
+      "Join Snappit, a celebration of smartphone photography! In this solo event, capture moments that speak volumes. Unleash your creativity with specific editing techniques while ensuring originality, fairness, and adherence to ethical standards.<br><br><b>Participation Type:</b> Individual Event (Online Mode)<br><br> <b>Event Details:</b> <ul> <li>Submit a single smartphone-captured image on a given theme.</li> <li>DSLR/Digital Camera photography is not allowed.</li> <li>Original images with geotagging feature enabled is required.</li> <li>Basic editing (cropping, color correction) is allowed.</li> <li>Heavy manipulations altering the reality of the image are not acceptable.</li> <li>Plagiarism, inappropriate content, and violation of rules lead to disqualification.</li> </ul>",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSegHklrHq7XHNgfOADA1JgJDu2X5R4IuxZK5yLE2rDtuN7b0Q/viewform?usp=sharing",
+    icon: "photo_camera",
   },
   {
     name: "eXcelerate",
@@ -127,26 +136,6 @@ const eventDetails = [
     icon: "electrical_services",
   },
   {
-    name: "Em-Bleed",
-    description:
-      "Transform imagination into pixels at this digital art and design event, sparking creative brilliance.",
-    modalDescription:
-      "Unleash your creativity in EM-BLEED, where design meets expression! This solo event invites participants to craft captivating posters, digital artworks, or GIFs on a given topic. Let your imagination flow freely, adhering to guidelines that foster creativity and respect.<br><br>  <b>Participation Type:</b> Individual Event (On Campus)<br><br> <b>Event Details:</b> <ul> <li>Design a poster, digital artwork, or GIF on a given topic.</li> <li>Designs must not represent individuals, organizations, or brands, and must avoid religious sentiments.</li> <li>Plagiarism is prohibited.</li> <li>Submission Format: JPEG.</li>  </ul>",
-    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfzio3xbH4H0fJWvdL6duY7sj2chD1PaU4-JxWzHFrDjuX9ng/viewform?usp=sharing",
-    icon: "palette",
-  },
-	/*
-  {
-    name: "Cube-X",
-    description:
-      "Twist, turn, and conquer the challenge in this Rubik's Cube-solving showdown.",
-    modalDescription:
-      "Get ready for the Rubik`s Cube Challenge! Navigate through mind-bending twists, speed-solving against the clock. Bring your own cube, and let the colors whirl in a solo showdown of skill and speed!<br><br> <b>Participation Type:</b> Individual Event<br><br> <b>Event Details:</b> <ul> <li>A Rubik’s Cube challenge.</li> <li>Time limit: 2 minutes per solve.</li> <li>Participants must bring their own Rubik’s cube.</li> <li>Timing will be recorded using mobile stopwatches.</li> </ul>",
-    formLink: "#",
-    icon: "deployed_code",
-  },
-  */
-  {
     name: "Byte Tales",
     description:
       "Sculpt powerful narratives in tiny spaces, where words spark worlds in microfiction mastery",
@@ -156,6 +145,15 @@ const eventDetails = [
     icon: "auto_stories",
   },
   {
+    name: "Em-Bleed",
+    description:
+      "Transform imagination into pixels at this digital art and design event, sparking creative brilliance.",
+    modalDescription:
+      "Unleash your creativity in EM-BLEED, where design meets expression! This solo event invites participants to craft captivating posters, digital artworks, or GIFs on a given topic. Let your imagination flow freely, adhering to guidelines that foster creativity and respect.<br><br>  <b>Participation Type:</b> Individual Event (On Campus)<br><br> <b>Event Details:</b> <ul> <li>Design a poster, digital artwork, or GIF on a given topic.</li> <li>Designs must not represent individuals, organizations, or brands, and must avoid religious sentiments.</li> <li>Plagiarism is prohibited.</li> <!-- <li>Tools: Adobe Photoshop or Adobe Illustrator.</li> --> <li>Submission Format: JPEG.</li> <!-- <li>Platform: macOS.</li> --> </ul>",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfzio3xbH4H0fJWvdL6duY7sj2chD1PaU4-JxWzHFrDjuX9ng/viewform?usp=sharing",
+    icon: "palette",
+  },
+  {
     name: "Crypt-X",
     description:
       "Dive into the cryptic challenge, solve puzzles & crack encrypted messages.",
@@ -163,15 +161,6 @@ const eventDetails = [
       "Unlock the secrets of encryption in CRYPT-X! Dive into the world of cipher codes, where participants embark on a quest to break through cryptographic puzzles. Whether you`re a novice or an encryption expert, CRYPT-X promises an exciting challenge for all!<br><br> <b>Participation Type:</b> Individual  Event (On Campus)<br><br> <b>Event Details:</b><br> <ul> <li>A set of n questions will be given in password-protected .txt files.</li> <li>The first question will be accessible to every participant.</li> <li>The answer to each question serves as the password for the next file.</li> <li>The fastest participant to decipher all passwords correctly will be declared the winner.</li><li>In case of a tie, the participant who completed who completed the challenge in the shortest time will be considered the winner.</li></ul>",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLScCgoTr0Lz0cnQGeHI8NJ2_DtOn-DKLt8DK7CNFt0-nbBRE5g/viewform?usp=sharing",
     icon: "key",
-  },
-  {
-    name: "Snappit",
-    description:
-      "Capture the essence of moments, express creativity through lenses in this captivating photography event.",
-    modalDescription:
-      "Join Snappit, a celebration of smartphone photography! In this solo event, capture moments that speak volumes. Unleash your creativity with specific editing techniques while ensuring originality, fairness, and adherence to ethical standards.<br><br><b>Participation Type:</b> Individual Event (Online Mode)<br><br> <b>Event Details:</b> <ul> <li>Submit a single smartphone-captured image on a given theme.</li> <li>DSLR/Digital Camera photography is not allowed.</li> <li>Original images with geotagging feature enabled is required.</li> <li>Basic editing (cropping, color correction) is allowed.</li> <li>Heavy manipulations altering the reality of the image are not acceptable.</li> <li>Plagiarism, inappropriate content, and violation of rules lead to disqualification.</li> </ul>",
-    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSegHklrHq7XHNgfOADA1JgJDu2X5R4IuxZK5yLE2rDtuN7b0Q/viewform?usp=sharing",
-    icon: "photo_camera",
   },
   {
     name: "Sudo-X",
