@@ -477,3 +477,20 @@ button:disabled {
 .download-btn-desktop:hover{
   background-color: rgb(226, 198, 233);
 }
+
+.important-msg {
+	color: hsl(0 100% 80%);
+	animation-name: hueshift;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@keyframes hueshift {
+	from {
+		filter: hue-rotate(62deg);
+	}
+	to {
+		filter: hue-rotate(254deg);
+	}
+}

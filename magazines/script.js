@@ -50,4 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     }, 100);
   });
+
+  // Easter egg
+  if(Math.random() <= 0.001)
+	document.querySelector('.background img').classList.add('background-barrelroll');
 });

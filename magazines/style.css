@@ -300,3 +300,20 @@ body {
 .current-route::after {
   background-color: rgb(151, 162, 255) !important;
 }
+
+/* Easter Egg */
+.background-barrelroll {
+	animation-name: barrelroll;
+	animation-duration: 1s;
+	animation-iteration-count: 1;
+	animation-direction: forward;
+}
+
+@keyframes barrelroll {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
