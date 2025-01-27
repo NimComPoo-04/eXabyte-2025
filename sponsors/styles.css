@@ -162,6 +162,13 @@ body {
   font-size: 2rem;
   margin: 20px 0 10px;
 }
+
+@media screen and (max-width: 400px) {
+	.sponsor-items header {
+		font-size: 1.75rem;
+	}
+}
+
 .sponsor-card {
   margin-bottom: 10px;
 }
@@ -178,7 +185,7 @@ body {
   transition: 0.3s ease;
 }
 .sponsor-card img {
-  border-radius: 12px;
+  /* border-radius: 12px; */
   /* filter: grayscale(0.9); */
 }
 
@@ -191,9 +198,15 @@ body {
   font-weight: bold;
 }
 
+@media screen and (max-width: 400px) {
+	.brand-name {
+		font-size: 1.2rem;
+	}
+}
+
 img {
   object-fit: contain;
-  border-radius: 10px;
+  /*border-radius: 10px; */
 }
 /* Desktop mode */
 
