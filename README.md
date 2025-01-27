@@ -1,5 +1,5 @@
-## eXabyte '24
-This is the official repository for the website of eXabyte 2024. 
+## eXabyte '25
+This is the official repository for the website of eXabyte 2025. 
 
 ### Project Structure
 The repository contains all the routes as well as the custom tags and various (mostly images) assets used throughout the project.
