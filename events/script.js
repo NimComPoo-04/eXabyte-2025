@@ -131,7 +131,7 @@ const eventDetails = [
     description:
       "Transform imagination into pixels at this digital art and design event, sparking creative brilliance.",
     modalDescription:
-      "Unleash your creativity in EM-BLEED, where design meets expression! This solo event invites participants to craft captivating posters, digital artworks, or GIFs on a given topic. Let your imagination flow freely, adhering to guidelines that foster creativity and respect.<br><br>  <b>Participation Type:</b> Individual Event (On Campus)<br><br> <b>Event Details:</b> <ul> <li>Design a poster, digital artwork, or GIF on a given topic.</li> <li>Designs must not represent individuals, organizations, or brands, and must avoid religious sentiments.</li> <li>Plagiarism is prohibited.</li> <li>Tools: Adobe Photoshop or Adobe Illustrator.</li> <li>Submission Format: JPEG.</li> <li>Platform: macOS.</li> </ul>",
+      "Unleash your creativity in EM-BLEED, where design meets expression! This solo event invites participants to craft captivating posters, digital artworks, or GIFs on a given topic. Let your imagination flow freely, adhering to guidelines that foster creativity and respect.<br><br>  <b>Participation Type:</b> Individual Event (On Campus)<br><br> <b>Event Details:</b> <ul> <li>Design a poster, digital artwork, or GIF on a given topic.</li> <li>Designs must not represent individuals, organizations, or brands, and must avoid religious sentiments.</li> <li>Plagiarism is prohibited.</li> <li>Submission Format: JPEG.</li>  </ul>",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLSfzio3xbH4H0fJWvdL6duY7sj2chD1PaU4-JxWzHFrDjuX9ng/viewform?usp=sharing",
     icon: "palette",
   },
@@ -151,7 +151,7 @@ const eventDetails = [
     description:
       "Sculpt powerful narratives in tiny spaces, where words spark worlds in microfiction mastery",
     modalDescription:
-      "Dive into the world of micro storytelling with BYTE TALES! Unleash your creativity in bite-sized paragraphs, each a narrative gem. Explore diverse themes and craft compelling tales within the tight embrace of a 50-word limit.<br><br> <b>Participation Type:</b> Individual Event (Online Mode)<br><br> <b>Event Details:</b> <ul> <li><b>Format:</b> On-line event.</li> <li><b>Task:</b> Write a short paragraph (50 words) on a given theme.</li> </ul>",
+      "Dive into the world of micro storytelling with BYTE TALES! Unleash your creativity in bite-sized paragraphs, each a narrative gem. Explore diverse themes and craft compelling tales within the tight embrace of a 50-word limit.<br><br> <b>Participation Type:</b> Individual Event (Online Mode)<br><br> <b>Event Details:</b> <ul> <li><b>Format:</b> On-line event.</li> <li><b>Task:</b> Write a short paragraph (50 words) on a given theme.</li><li>Plagiarism, inappropriate content, or rule vialoations will result in disqualification.</li> </ul>",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLSf1VM_EJ69Be9_y4vT425SaiXERRL2Zt_yqseSei6FVXBJ68g/viewform?usp=sharing",
     icon: "auto_stories",
   },
@@ -160,7 +160,7 @@ const eventDetails = [
     description:
       "Dive into the cryptic challenge, solve puzzles & crack encrypted messages.",
     modalDescription:
-      "Unlock the secrets of encryption in CRYPT-X! Dive into the world of cipher codes, where participants embark on a quest to break through cryptographic puzzles. Whether you`re a novice or an encryption expert, CRYPT-X promises an exciting challenge for all!<br><br> <b>Participation Type:</b> Individual  Event (On Campus)<br><br> <b>Event Details:</b><br> <ul> <li>A set of n questions will be given in password-protected .txt files.</li> <li>The first question will be accessible to every participant.</li> <li>The answer to each question serves as the password for the next file.</li> </ul>",
+      "Unlock the secrets of encryption in CRYPT-X! Dive into the world of cipher codes, where participants embark on a quest to break through cryptographic puzzles. Whether you`re a novice or an encryption expert, CRYPT-X promises an exciting challenge for all!<br><br> <b>Participation Type:</b> Individual  Event (On Campus)<br><br> <b>Event Details:</b><br> <ul> <li>A set of n questions will be given in password-protected .txt files.</li> <li>The first question will be accessible to every participant.</li> <li>The answer to each question serves as the password for the next file.</li> <li>The fastest participant to decipher all passwords correctly will be declared the winner.</li><li>In case of a tie, the participant who completed who completed the challenge in the shortest time will be considered the winner.</li></ul>",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLScCgoTr0Lz0cnQGeHI8NJ2_DtOn-DKLt8DK7CNFt0-nbBRE5g/viewform?usp=sharing",
     icon: "key",
   },
@@ -178,7 +178,7 @@ const eventDetails = [
     description:
       "Tackle number puzzles, sharpen your mind, and conquer Sudoku mastery in this event.",
     modalDescription:
-      "Immerse yourself in the world of Sudo-X, where Sudoku enthusiasts embark on a thrilling challenge. With 4 Sudoku problems to solve, speed and precision are key. Be the fastest to conquer them all and claim victory in this solo puzzle-solving journey!<br><br> <b>Participation Type:</b> Individual Event (On Campus)<br><br> <b>Event Details:</b> <ul> <li>Each participant will be given 4 Sudoku problems to solve. Only when the participant solves one problem, can he/she proceed to the next problem.</li> <li>The fastest to solve all the problems will be adjudged the winner.</li> <li>In case of a tie, winners will be determined based on the final arrangements closest to the actual solution.</li> </ul>",
+      "Immerse yourself in the world of Sudo-X, where Sudoku enthusiasts embark on a thrilling challenge. With 4 Sudoku problems to solve, speed and precision are key. Be the fastest to conquer them all and claim victory in this solo puzzle-solving journey!<br><br> <b>Participation Type:</b> Individual Event (On Campus)<br><br> <b>Event Details:</b> <ul> <li>Each participant must solve 4 Sudoku problems sequentially.</li><li>The puzzles will increase in diffuculty as you progress.</li> <li>The fastest participant to solve all the problems will be decllared the winner.</li> <li>In case of a tie, winners will be determined based on the final arrangements closest to the correct solution.</li> </ul>",
     formLink: "https://docs.google.com/forms/d/e/1FAIpQLSeLOImEmE9l5nGz6n2Egz3KSGoDgMD-KqtWO5PVJtuWgLaxFg/viewform?usp=sharing",
     icon: "grid_on",
   },
