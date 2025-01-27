@@ -7,6 +7,8 @@ var commandOutputs = {
     sponsors
     <br>
     about us
+    <br>
+    contact
     `,
   date: `
     18th and 19th Feb
@@ -148,8 +150,8 @@ function detectEnter(e) {
             outputWrapper.innerHTML += `<br><span class="cmd">${prompt.input.value}</span><br>redirecting...`;
             commandFound = true;
             break;
-          case "contacts":
-            window.location.href = ("./contacts");
+          case "contact":
+            window.location.href = ("./contact");
             outputWrapper.innerHTML += `<br><span class="cmd">${prompt.input.value}</span><br>redirecting...`;
             commandFound = true;
             break;
