@@ -8,8 +8,11 @@ const profileDetails = [
       {
         name: "Sahil Dudhoria",
         phone: "+918777094257",
-        email: "sahildudhoria@gmail.com",
         position: "Convenor",
+        phone: "+918777094257",
+        linkedin: "https://www.linkedin.com/in/sahildudhoria",
+        github: "https://github.com/CappyRogers",
+        insta: "https://www.instagram.com/i._.amsahil?igsh=MXE1emJ6c2wwN3FzYQ=="
       },
       {
         name: "Sania Rahaman",
@@ -63,7 +66,7 @@ const profileDetails = [
         name: "Shalini Ghosh",
         phone: "+919073214375",
         position: "PR OCM",
-        linkedin: "www.linkedin.com/in/shalinighosh01",
+        linkedin: "https://www.linkedin.com/in/shalinighosh01",
         insta: "https://www.instagram.com/_shalinighosh_/"
       },
       {

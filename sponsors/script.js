@@ -1,7 +1,7 @@
 // REMEMBER TO REMOVE GREYSCALE ON IMAGES
 const sponsorDetails = [
   {
-    groupName: "Study Abroad Partner",
+    groupName: "Partner",
     sponsorsArray: [
       {
         name: "Studies In Overseas",
