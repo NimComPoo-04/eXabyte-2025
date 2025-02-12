@@ -5,7 +5,7 @@ const sponsorDetails = [
     sponsorsArray: [
       {
 	      name: "Aliff Overseas",
-        sponsorType: "<em style='font-size: 1.25em'>We bring study abroad within the common man's reach</em>",
+        sponsorType: "<em style='font-size: 1.25em;'>We bring study abroad<br>within the common man's reach</em>",
 	link:"https://aliff.in/",
         imageSrc: "/assets/images/sponsor-logos/aliff.png",
       },
@@ -23,7 +23,18 @@ const sponsorDetails = [
     ],
   },
   {
-    groupName: "Partner",
+    groupName: "Exclusive Radio Partner",
+    sponsorsArray: [
+      {
+        name: "91.9 Friends FM",
+        sponsorType: "",
+	link:"https://www.instagram.com/919friendsfm?igsh=NWduMHlpOGNpNm13",
+        imageSrc: "/assets/images/sponsor-logos/friendsfm.png",
+      },
+    ],
+  },
+  {
+    groupName: "Education Partner",
     sponsorsArray: [
       {
         name: "Studies In Overseas",
@@ -44,17 +55,6 @@ const sponsorDetails = [
       },
     ],
   },
-  {
-    groupName: "Exclusive Radio Partner",
-    sponsorsArray: [
-      {
-        name: "91.9 Friends FM",
-        sponsorType: "",
-	link:"https://www.instagram.com/919friendsfm?igsh=NWduMHlpOGNpNm13",
-        imageSrc: "/assets/images/sponsor-logos/friendsfm.png",
-      },
-    ],
-  }
 ];
 
 
