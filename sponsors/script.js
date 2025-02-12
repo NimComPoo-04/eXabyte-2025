@@ -5,9 +5,20 @@ const sponsorDetails = [
     sponsorsArray: [
       {
         name: "Aliff Overseas ",
-        sponsorType: "",
+        sponsorType: "We bring study abroad within the common man's reach",
 	link:"https://aliff.in/",
         imageSrc: "/assets/images/sponsor-logos/aliff.png",
+      },
+    ],
+  },
+  {
+    groupName: "Digital Media Partner",
+    sponsorsArray: [
+      {
+        name: "The Telegraph online edugraph",
+        sponsorType: "",
+	link:"https://www.telegraphindia.com/edugraph",
+        imageSrc: "/assets/images/sponsor-logos/telegraph.png",
       },
     ],
   },
@@ -30,17 +41,6 @@ const sponsorDetails = [
         sponsorType: "",
 	link:"https://www.isoeh.com/",
         imageSrc: "/assets/images/sponsor-logos/ISOEH.png",
-      },
-    ],
-  },
-  {
-    groupName: "Digital Media Partner",
-    sponsorsArray: [
-      {
-        name: "The Telegraph online edugraph",
-        sponsorType: "",
-	link:"https://www.telegraphindia.com/edugraph",
-        imageSrc: "/assets/images/sponsor-logos/telegraph.png",
       },
     ],
   },
@@ -135,7 +135,8 @@ const otherSponsorsDivMobile = document.querySelector(".other-sponsors-mobile");
 // FIXME(NimComPoo): Do not remove top sponsor for now please
 // const otherSponsors = sponsorDetails.slice(1);
 const otherSponsors = sponsorDetails;
-otherSponsors.forEach((item) => {
+otherSponsors.forEach((item, indx) => {
+	const dw = (indx == 0 ? 100: 0);
   let newSponsorGroupDesktopHTML = `
             <header class="pixelated">${item.groupName}</header>
             <div class="broadband-partner partners-desktop flex flex-wrap justify-center">
@@ -144,11 +145,11 @@ otherSponsors.forEach((item) => {
         <header class="pixelated">${item.groupName}</header>
         <div class="food-partner partners flex flex-wrap justify-center">
     `;
-  item.sponsorsArray.forEach((sponsor) => {
+  item.sponsorsArray.forEach((sponsor, indx) => {
     let newSponsorDesktopHTML = `
             <div class="sponsor-card flex-col">
               <div class="brand-logo-desktop">
-                ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="brand-img" width="230px" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}</div>
+                ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="brand-img" width="${230+dw}px" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}</div>
               <div class="brand-name-desktop text-center">${sponsor.name}</div>
               <div class="sponsor-title-desktop text-center">${sponsor.sponsorType}</div>
             </div>
@@ -156,7 +157,7 @@ otherSponsors.forEach((item) => {
     let newSponsorMobileHTML = `
         <div class="sponsor-card flex-col">
             <div class="brand-logo">
-              ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="brand-img" width="300px" height="200px" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}
+              ${sponsor.link ? `<a href="${sponsor.link}" target="_blank">` : ""}<img class="brand-img" width="${300+dw}px" height="${200+dw}px" src="${sponsor.imageSrc}" alt=""/>${sponsor.link ? "</a>" : ""}
             </div>
             <div class="brand-name text-center">${sponsor.name}</div>
             <div class="sponsor-title text-center">${sponsor.sponsorType}</div>
