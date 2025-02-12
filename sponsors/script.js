@@ -4,8 +4,8 @@ const sponsorDetails = [
     groupName: "Title Sponsor ",
     sponsorsArray: [
       {
-        name: "Aliff Overseas ",
-        sponsorType: "We bring study abroad within the common man's reach",
+	      name: "Aliff Overseas",
+        sponsorType: "<em style='font-size: 1.25em'>We bring study abroad within the common man's reach</em>",
 	link:"https://aliff.in/",
         imageSrc: "/assets/images/sponsor-logos/aliff.png",
       },

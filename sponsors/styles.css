@@ -188,7 +188,10 @@ body {
 }
 .sponsor-card img {
   border-radius: 5%; 
-  /* filter: grayscale(0.9); */
+ /* filter: grayscale(0.9); */
+}
+.sponsor-card {
+  text-align: center;
 }
 
 .brand-name,
