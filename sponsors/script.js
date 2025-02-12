@@ -1,6 +1,17 @@
 // REMEMBER TO REMOVE GREYSCALE ON IMAGES
 const sponsorDetails = [
   {
+    groupName: "Title Sponsor ",
+    sponsorsArray: [
+      {
+        name: "Aliff Overseas ",
+        sponsorType: "",
+	link:"https://aliff.in/",
+        imageSrc: "/assets/images/sponsor-logos/aliff.png",
+      },
+    ],
+  },
+  {
     groupName: "Partner",
     sponsorsArray: [
       {
@@ -19,6 +30,28 @@ const sponsorDetails = [
         sponsorType: "",
 	link:"https://www.isoeh.com/",
         imageSrc: "/assets/images/sponsor-logos/ISOEH.png",
+      },
+    ],
+  },
+  {
+    groupName: "Digital Media Partner",
+    sponsorsArray: [
+      {
+        name: "The Telegraph online edugraph",
+        sponsorType: "",
+	link:"https://www.telegraphindia.com/edugraph",
+        imageSrc: "/assets/images/sponsor-logos/telegraph.png",
+      },
+    ],
+  },
+  {
+    groupName: "Exclusive Radio Partner",
+    sponsorsArray: [
+      {
+        name: "91.9 Friends FM",
+        sponsorType: "",
+	link:"https://www.instagram.com/919friendsfm?igsh=NWduMHlpOGNpNm13",
+        imageSrc: "/assets/images/sponsor-logos/friendsfm.png",
       },
     ],
   }

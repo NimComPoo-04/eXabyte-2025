@@ -185,7 +185,7 @@ body {
   transition: 0.3s ease;
 }
 .sponsor-card img {
-  /* border-radius: 12px; */
+  border-radius: 5%; 
   /* filter: grayscale(0.9); */
 }
 
